@@ -25,9 +25,9 @@ const IndexPage = () => {
 
   const handleRemovePokemon = indexToRemove => {
     setSelectedPokemon([
+      null,
       ...selectedPokemon.slice(0, indexToRemove),
-      ...selectedPokemon.slice(indexToRemove + 1, selectedPokemon.length),
-      null
+      ...selectedPokemon.slice(indexToRemove + 1, selectedPokemon.length)
     ]);
   };
 

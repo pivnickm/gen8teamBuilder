@@ -16,8 +16,8 @@ const DisplayHeader = ({
     <div className={outputClassName} {...displayHeaderProps}>
       {selectedPokemon.map((pokemon, index) => {
         return pokemon === null ? (
-          <div className="displayHeader_item displayHeader_unselected">
-            NULL
+          <div className="displayHeader_item displayHeader_pokeball">
+            <hr className="displayHeader_pokeballCenter" />
           </div>
         ) : (
           <div
