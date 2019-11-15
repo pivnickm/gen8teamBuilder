@@ -1,20 +1,55 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, { useState } from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import List from "../components/list"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import List from "../components/list";
+import DisplayHeader from "../components/displayHeader";
+import SEO from "../components/seo";
 
-import data from "../data/pokedex.json"
+import data from "../data/pokedex.json";
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Pokemon Sword and Shield Team Builder" />
+const IndexPage = () => {
+  const [selectedPokemon, setSelectedPokemon] = useState([
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]);
 
-    <div>
-      <List data={data} />
-    </div>
-  </Layout>
-)
+  const handleSelectPokemon = pokemonToAdd => {
+    selectedPokemon.shift();
+    setSelectedPokemon([...selectedPokemon, pokemonToAdd]);
+  };
 
-export default IndexPage
+  const handleRemovePokemon = indexToRemove => {
+    setSelectedPokemon([
+      ...selectedPokemon.slice(0, indexToRemove),
+      ...selectedPokemon.slice(indexToRemove + 1, selectedPokemon.length),
+      null
+    ]);
+  };
+
+  const filteredList = data.filter(
+    pokemon => !selectedPokemon.includes(pokemon)
+  );
+  return (
+    <Layout>
+      <SEO title="Pokemon Sword and Shield Team Builder" />
+
+      <div>
+        <DisplayHeader
+          selectedPokemon={selectedPokemon}
+          handleItemClick={handleRemovePokemon}
+        />
+        <List
+          availablePokemon={filteredList}
+          handleItemClick={handleSelectPokemon}
+        />
+      </div>
+    </Layout>
+  );
+};
+
+export default IndexPage;

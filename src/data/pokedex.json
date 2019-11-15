@@ -466,6 +466,7 @@
   {
     "id": 37,
     "name": "Vulpix-Alola",
+    "form": "Alola",
     "types": [
       "ice"
     ],
@@ -520,6 +521,7 @@
   {
     "id": 38,
     "name": "Ninetales-Alola",
+    "form": "Alola",
     "types": [
       "ice",
       "fairy"
@@ -659,6 +661,7 @@
   {
     "id": 50,
     "name": "Diglett-Alola",
+    "form": "Alola",
     "types": [
       "ground",
       "steel"
@@ -714,6 +717,7 @@
   {
     "id": 51,
     "name": "Dugtrio-Alola",
+    "form": "Alola",
     "types": [
       "ground",
       "steel"
@@ -769,6 +773,7 @@
   {
     "id": 52,
     "name": "Meowth-Alola",
+    "form": "Alola",
     "types": [
       "dark"
     ],
@@ -796,6 +801,7 @@
   {
     "id": 52,
     "name": "Meowth-Galar",
+    "form": "Galar",
     "types": [
       "steel"
     ],
@@ -850,6 +856,7 @@
   {
     "id": 53,
     "name": "Persian-Alola",
+    "form": "Alola",
     "types": [
       "dark"
     ],
@@ -1039,6 +1046,7 @@
   {
     "id": 77,
     "name": "Ponyta-Galar",
+    "form": "Galar",
     "types": [
       "psychic"
     ],
@@ -1093,6 +1101,7 @@
   {
     "id": 78,
     "name": "Rapidash-Galar",
+    "form": "Galar",
     "types": [
       "psychic",
       "fairy"
@@ -1149,6 +1158,7 @@
   {
     "id": 83,
     "name": "Farfetch'd-Galar",
+    "form": "Galar",
     "types": [
       "fighting"
     ],
@@ -1505,6 +1515,7 @@
   {
     "id": 110,
     "name": "Weezing-Galar",
+    "form": "Galar",
     "types": [
       "poison",
       "fairy"
@@ -1671,6 +1682,7 @@
   {
     "id": 122,
     "name": "Mr. Mime-Galar",
+    "form": "Galar",
     "types": [
       "ice",
       "psychic"
@@ -2662,6 +2674,7 @@
   {
     "id": 222,
     "name": "Corsola-Galar",
+    "form": "Galar",
     "types": [
       "ghost"
     ],
@@ -2992,6 +3005,7 @@
   {
     "id": 263,
     "name": "Zigzagoon-Galar",
+    "form": "Galar",
     "types": [
       "dark",
       "normal"
@@ -3047,6 +3061,7 @@
   {
     "id": 264,
     "name": "Linoone-Galar",
+    "form": "Galar",
     "types": [
       "dark",
       "normal"
@@ -5261,6 +5276,7 @@
   {
     "id": 479,
     "name": "Rotom-Frost",
+    "form": "Frost",
     "types": [
       "electric",
       "ice"
@@ -5289,6 +5305,7 @@
   {
     "id": 479,
     "name": "Rotom-Heat",
+    "form": "Heat",
     "types": [
       "electric",
       "fire"
@@ -5317,6 +5334,7 @@
   {
     "id": 479,
     "name": "Rotom-Mow",
+    "form": "Mow",
     "types": [
       "electric",
       "grass"
@@ -5345,6 +5363,7 @@
   {
     "id": 479,
     "name": "Rotom-Fan",
+    "form": "Fan",
     "types": [
       "electric",
       "fan"
@@ -5373,6 +5392,7 @@
   {
     "id": 479,
     "name": "Rotom-Wash",
+    "form": "Wash",
     "types": [
       "electric",
       "water"
@@ -6113,6 +6133,7 @@
   {
     "id": 554,
     "name": "Darumaka-Galar",
+    "form": "Galar",
     "types": [
       "ice"
     ],
@@ -6167,6 +6188,7 @@
   {
     "id": 555,
     "name": "Darmanitan-Galar",
+    "form": "Galar",
     "types": [
       "ice"
     ],
@@ -6388,6 +6410,7 @@
   {
     "id": 562,
     "name": "Yamask-Galar",
+    "form": "Galar",
     "types": [
       "ground",
       "ghost"
@@ -7453,6 +7476,7 @@
   {
     "id": 618,
     "name": "Stunfisk-Galar",
+    "form": "Galar",
     "types": [
       "ground",
       "steel"
@@ -9393,7 +9417,7 @@
     "id": 749,
     "name": "Mudbray",
     "types": [
-      "groun"
+      "ground"
     ],
     "defensives": [
       1,
@@ -9420,7 +9444,7 @@
     "id": 750,
     "name": "Mudsdale",
     "types": [
-      "groun"
+      "ground"
     ],
     "defensives": [
       1,
@@ -12578,6 +12602,7 @@
   {
     "id": 888,
     "name": "Zacian-Sword",
+    "form": "Sword",
     "types": [
       "fairy",
       "steel"
@@ -12633,6 +12658,7 @@
   {
     "id": 889,
     "name": "Zamazenta-Shield",
+    "form": "Shield",
     "types": [
       "fighting",
       "steel"

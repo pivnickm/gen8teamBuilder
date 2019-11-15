@@ -1,180 +1,25 @@
-$normal: #a8a878;
-$water: #6890f0;
-$fire: #f08030;
-$grass: #78c850;
-$fairy: #f7b5f7;
-$flying: #a890f0;
-$poison: #a040a0;
-$dark: #705848;
-$psychic: #f85888;
-$steel: #b8b8d0;
-$electric: #f8d030;
-$fighting: #c03028;
-$ground: #e0c068;
-$rock: #b8a038;
-$bug: #a8b820;
-$ice: #98d8d8;
-$dragon: #7038f8;
-$ghost: #705898;
-
-$normalLighten: rgba(168, 168, 120, 0.5);
-$waterLighten: rgba(104, 144, 240, 0.5);
-$fireLighten: rgba(240, 128, 48, 0.5);
-$grassLighten: rgba(120, 200, 80, 0.5);
-$fairyLighten: rgba(247, 181, 247, 0.5);
-$flyingLighten: rgba(168, 144, 240, 0.5);
-$poisonLighten: rgba(160, 64, 160, 0.5);
-$darkLighten: rgba(112, 88, 72, 0.5);
-$psychicLighten: rgba(248, 88, 136, 0.5);
-$steelLighten: rgba(184, 184, 208, 0.5);
-$electricLighten: rgba(248, 208, 48, 0.5);
-$fightingLighten: rgba(192, 48, 40, 0.5);
-$groundLighten: rgba(224, 192, 104, 0.5);
-$rockLighten: rgba(184, 160, 56, 0.5);
-$bugLighten: rgba(168, 184, 32, 0.5);
-$iceLighten: rgba(152, 216, 216, 0.5);
-$dragonLighten: rgba(112, 56, 248, 0.5);
-$ghostLighten: rgba(112, 88, 152, 0.5);
-
 .listItem {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   list-style: none;
+  user-select: none;
   height: 75px;
   width: 75px;
   margin: 0.25rem;
-  font-size: 0.75rem;
   &_image {
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
+    &__bigDisplay {
+      max-width: 100%;
+      width: unset;
+      height: auto;
+    }
   }
-}
-
-.normal0 {
-  background: $normalLighten;
-  border: 2px solid $normal;
-}
-.normal1 {
-  border: 2px solid $normal;
-}
-.water0 {
-  background: $waterLighten;
-  border: 2px solid $water;
-}
-.water1 {
-  border: 2px solid $water;
-}
-.fire0 {
-  background: $fireLighten;
-  border: 2px solid $fire;
-}
-.fire1 {
-  border: 2px solid $fire;
-}
-.grass0 {
-  background: $grassLighten;
-  border: 2px solid $grass;
-}
-.grass1 {
-  border: 2px solid $grass;
-}
-.fairy0 {
-  background: $fairyLighten;
-  border: 2px solid $fairy;
-}
-.fairy1 {
-  border: 2px solid $fairy;
-}
-.flying0 {
-  background: $flyingLighten;
-  border: 2px solid $flying;
-}
-.flying1 {
-  border: 2px solid $flying;
-}
-.poison0 {
-  background: $poisonLighten;
-  border: 2px solid $poison;
-}
-.poison1 {
-  border: 2px solid $poison;
-}
-.dark0 {
-  background: $darkLighten;
-  border: 2px solid $dark;
-}
-.dark1 {
-  border: 2px solid $dark;
-}
-.psychic0 {
-  background: $psychicLighten;
-  border: 2px solid $psychic;
-}
-.psychic1 {
-  border: 2px solid $psychic;
-}
-.steel0 {
-  background: $steelLighten;
-  border: 2px solid $steel;
-}
-.steel1 {
-  border: 2px solid $steel;
-}
-.electric0 {
-  background: $electricLighten;
-  border: 2px solid $electric;
-}
-.electric1 {
-  border: 2px solid $electric;
-}
-.fighting0 {
-  background: $fightingLighten;
-  border: 2px solid $fighting;
-}
-.fighting1 {
-  border: 2px solid $fighting;
-}
-.ground0 {
-  background: $groundLighten;
-  border: 2px solid $ground;
-}
-.ground1 {
-  border: 2px solid $ground;
-}
-.rock0 {
-  background: $rockLighten;
-  border: 2px solid $rock;
-}
-.rock1 {
-  border: 2px solid $rock;
-}
-.bug0 {
-  background: $bugLighten;
-  border: 2px solid $bug;
-}
-.bug1 {
-  border: 2px solid $bug;
-}
-.ice0 {
-  background: $iceLighten;
-  border: 2px solid $ice;
-}
-.ice1 {
-  border: 2px solid $ice;
-}
-.dragon0 {
-  background: $dragonLighten;
-  border: 2px solid $dragon;
-}
-.dragon1 {
-  border: 2px solid $dragon;
-}
-.ghost0 {
-  background: $ghostLighten;
-  border: 2px solid $ghost;
-}
-.ghost1 {
-  border: 2px solid $ghost;
+  &__bigDisplay {
+    height: 140px;
+    width: 140px;
+    border: 1px solid black;
+  }
 }

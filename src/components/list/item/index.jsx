@@ -1,36 +1,40 @@
-import React from "react"
-import PropTypes from "prop-types"
-import cn from "classnames"
+import React from "react";
+import PropTypes from "prop-types";
+import cn from "classnames";
 
-import * as colors from "../../../data/colors"
-import "./_index.scss"
+import * as colors from "../../../data/colors";
+import "./_index.scss";
 
-const ListItem = ({ className, item, ...listItemProps }) => {
+const ListItem = ({ className, onClick, pokemon, ...listItemProps }) => {
   const outputClassName = cn(
     className,
     "listItem",
-    item.types.map((item, index) => `${item}${index}`).join(" ")
-  )
+    pokemon.types.map((type, index) => `${type}${index}`).join(" ")
+  );
+  const imageClassName = cn(className, "listItem_image");
+  const imagePath = pokemon.form ? `${pokemon.id}-${pokemon.form}` : pokemon.id;
+
   return (
     <li
       className={outputClassName}
-      onClick={() => console.log(item)}
+      onClick={() => {
+        onClick(pokemon);
+      }}
       {...listItemProps}
     >
-      <span>{item.name}</span>
       <img
-        className={"listItem_image"}
-        src={`/pokemon/${item.id}.png`}
-        alt={item.name}
+        className={imageClassName}
+        src={`/pokemon/${imagePath}.png`}
+        alt={pokemon.name}
       />
     </li>
-  )
-}
+  );
+};
 
-ListItem.displayName = "ListItem"
+ListItem.displayName = "ListItem";
 
-ListItem.propTypes = {}
+ListItem.propTypes = {};
 
-ListItem.defaultProps = {}
+ListItem.defaultProps = {};
 
-export default ListItem
+export default ListItem;

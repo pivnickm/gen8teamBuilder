@@ -1,0 +1,32 @@
+.displayHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0.25rem;
+  &_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+  }
+  &_unselected {
+    border: 1px solid black;
+    border-radius: 75px;
+  }
+  &_image {
+    height: 60%;
+    width: 60%;
+    margin-bottom: 0;
+  }
+  &_typeWrapper {
+    margin-top: 0.5rem;
+    color: #3d3f42;
+  }
+  &_typeWrapper > &_type:not(:only-child) {
+    margin-right: 0.5rem;
+  }
+  &_type {
+    padding: 0.125rem;
+  }
+}
