@@ -9,7 +9,9 @@ const ListItem = ({ className, onClick, pokemon, ...listItemProps }) => {
   const outputClassName = cn(
     className,
     "listItem",
-    pokemon.types.map((type, index) => `${type}${index}`).join(" ")
+    pokemon.types
+      .map((type, index) => `${type.toLowerCase()}${index}`)
+      .join(" ")
   );
   const imageClassName = cn(className, "listItem_image");
   const imagePath = pokemon.form ? `${pokemon.id}-${pokemon.form}` : pokemon.id;

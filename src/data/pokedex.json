@@ -1,10 +1,11 @@
 [
   {
     "id": 1,
+    "gen": 1,
     "name": "Bulbasaur",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -29,10 +30,11 @@
   },
   {
     "id": 2,
+    "gen": 1,
     "name": "Ivysaur",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -57,10 +59,11 @@
   },
   {
     "id": 3,
+    "gen": 1,
     "name": "Venusaur",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -85,9 +88,10 @@
   },
   {
     "id": 4,
+    "gen": 1,
     "name": "Charmander",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -112,9 +116,10 @@
   },
   {
     "id": 5,
+    "gen": 1,
     "name": "Charmeleon",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -139,10 +144,11 @@
   },
   {
     "id": 6,
+    "gen": 1,
     "name": "Charizard",
     "types": [
-      "fire",
-      "flying"
+      "Fire",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -167,9 +173,10 @@
   },
   {
     "id": 7,
+    "gen": 1,
     "name": "Squirtle",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -194,9 +201,10 @@
   },
   {
     "id": 8,
+    "gen": 1,
     "name": "Wartortle",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -221,9 +229,10 @@
   },
   {
     "id": 9,
+    "gen": 1,
     "name": "Blastoise",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -248,9 +257,10 @@
   },
   {
     "id": 10,
+    "gen": 1,
     "name": "Caterpie",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -275,9 +285,10 @@
   },
   {
     "id": 11,
+    "gen": 1,
     "name": "Metapod",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -302,10 +313,11 @@
   },
   {
     "id": 12,
+    "gen": 1,
     "name": "Butterfree",
     "types": [
-      "bug",
-      "flying"
+      "Bug",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -330,9 +342,10 @@
   },
   {
     "id": 25,
+    "gen": 1,
     "name": "Pikachu",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -357,9 +370,10 @@
   },
   {
     "id": 26,
+    "gen": 1,
     "name": "Raichu",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -384,9 +398,10 @@
   },
   {
     "id": 35,
-    "name": "Clefairy",
+    "gen": 1,
+    "name": "CleFairy",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -411,9 +426,10 @@
   },
   {
     "id": 36,
+    "gen": 1,
     "name": "Clefable",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -438,9 +454,10 @@
   },
   {
     "id": 37,
+    "gen": 1,
     "name": "Vulpix",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -465,10 +482,11 @@
   },
   {
     "id": 37,
+    "gen": 1,
     "name": "Vulpix-Alola",
     "form": "Alola",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -493,9 +511,10 @@
   },
   {
     "id": 38,
+    "gen": 1,
     "name": "Ninetales",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -520,11 +539,12 @@
   },
   {
     "id": 38,
+    "gen": 1,
     "name": "Ninetales-Alola",
     "form": "Alola",
     "types": [
-      "ice",
-      "fairy"
+      "Ice",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -549,10 +569,11 @@
   },
   {
     "id": 43,
+    "gen": 1,
     "name": "Oddish",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -577,10 +598,11 @@
   },
   {
     "id": 44,
+    "gen": 1,
     "name": "Gloom",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -605,10 +627,11 @@
   },
   {
     "id": 45,
+    "gen": 1,
     "name": "Vileplume",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -633,9 +656,10 @@
   },
   {
     "id": 50,
+    "gen": 1,
     "name": "Diglett",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -660,11 +684,12 @@
   },
   {
     "id": 50,
+    "gen": 1,
     "name": "Diglett-Alola",
     "form": "Alola",
     "types": [
-      "ground",
-      "steel"
+      "Ground",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -689,9 +714,10 @@
   },
   {
     "id": 51,
+    "gen": 1,
     "name": "Dugtrio",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -716,11 +742,12 @@
   },
   {
     "id": 51,
+    "gen": 1,
     "name": "Dugtrio-Alola",
     "form": "Alola",
     "types": [
-      "ground",
-      "steel"
+      "Ground",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -745,9 +772,10 @@
   },
   {
     "id": 52,
+    "gen": 1,
     "name": "Meowth",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -772,10 +800,11 @@
   },
   {
     "id": 52,
+    "gen": 1,
     "name": "Meowth-Alola",
     "form": "Alola",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -800,10 +829,11 @@
   },
   {
     "id": 52,
+    "gen": 1,
     "name": "Meowth-Galar",
     "form": "Galar",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -828,9 +858,10 @@
   },
   {
     "id": 53,
+    "gen": 1,
     "name": "Persian",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -855,10 +886,11 @@
   },
   {
     "id": 53,
+    "gen": 1,
     "name": "Persian-Alola",
     "form": "Alola",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -883,9 +915,10 @@
   },
   {
     "id": 58,
+    "gen": 1,
     "name": "Growlithe",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -910,9 +943,10 @@
   },
   {
     "id": 59,
+    "gen": 1,
     "name": "Arcanine",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -937,9 +971,10 @@
   },
   {
     "id": 66,
+    "gen": 1,
     "name": "Machop",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -964,9 +999,10 @@
   },
   {
     "id": 67,
+    "gen": 1,
     "name": "Machoke",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -991,9 +1027,10 @@
   },
   {
     "id": 68,
+    "gen": 1,
     "name": "Machamp",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -1018,9 +1055,10 @@
   },
   {
     "id": 77,
+    "gen": 1,
     "name": "Ponyta",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -1045,10 +1083,11 @@
   },
   {
     "id": 77,
+    "gen": 1,
     "name": "Ponyta-Galar",
     "form": "Galar",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -1073,9 +1112,10 @@
   },
   {
     "id": 78,
+    "gen": 1,
     "name": "Rapidash",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -1100,11 +1140,12 @@
   },
   {
     "id": 78,
+    "gen": 1,
     "name": "Rapidash-Galar",
     "form": "Galar",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -1129,10 +1170,11 @@
   },
   {
     "id": 83,
+    "gen": 1,
     "name": "Farfetch'd",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -1157,10 +1199,11 @@
   },
   {
     "id": 83,
+    "gen": 1,
     "name": "Farfetch'd-Galar",
     "form": "Galar",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -1185,9 +1228,10 @@
   },
   {
     "id": 90,
+    "gen": 1,
     "name": "Shellder",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1212,10 +1256,11 @@
   },
   {
     "id": 91,
+    "gen": 1,
     "name": "Cloyster",
     "types": [
-      "water",
-      "ice"
+      "Water",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -1240,10 +1285,11 @@
   },
   {
     "id": 92,
+    "gen": 1,
     "name": "Gastly",
     "types": [
-      "ghost",
-      "poison"
+      "Ghost",
+      "Poison"
     ],
     "defensives": [
       0,
@@ -1268,10 +1314,11 @@
   },
   {
     "id": 93,
+    "gen": 1,
     "name": "Haunter",
     "types": [
-      "ghost",
-      "poison"
+      "Ghost",
+      "Poison"
     ],
     "defensives": [
       0,
@@ -1296,10 +1343,11 @@
   },
   {
     "id": 94,
+    "gen": 1,
     "name": "Gengar",
     "types": [
-      "ghost",
-      "poison"
+      "Ghost",
+      "Poison"
     ],
     "defensives": [
       0,
@@ -1324,10 +1372,11 @@
   },
   {
     "id": 95,
+    "gen": 1,
     "name": "Onix",
     "types": [
-      "rock",
-      "ground"
+      "Rock",
+      "Ground"
     ],
     "defensives": [
       0.5,
@@ -1352,9 +1401,10 @@
   },
   {
     "id": 98,
+    "gen": 1,
     "name": "Krabby",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1379,9 +1429,10 @@
   },
   {
     "id": 99,
+    "gen": 1,
     "name": "Kingler",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1406,9 +1457,10 @@
   },
   {
     "id": 106,
+    "gen": 1,
     "name": "Hitmonlee",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -1433,9 +1485,10 @@
   },
   {
     "id": 107,
+    "gen": 1,
     "name": "Hitmonchan",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -1460,9 +1513,10 @@
   },
   {
     "id": 109,
+    "gen": 1,
     "name": "Koffing",
     "types": [
-      "poison"
+      "Poison"
     ],
     "defensives": [
       1,
@@ -1487,9 +1541,10 @@
   },
   {
     "id": 110,
+    "gen": 1,
     "name": "Weezing",
     "types": [
-      "poison"
+      "Poison"
     ],
     "defensives": [
       1,
@@ -1514,11 +1569,12 @@
   },
   {
     "id": 110,
+    "gen": 1,
     "name": "Weezing-Galar",
     "form": "Galar",
     "types": [
-      "poison",
-      "fairy"
+      "Poison",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -1543,10 +1599,11 @@
   },
   {
     "id": 111,
+    "gen": 1,
     "name": "Rhyhorn",
     "types": [
-      "ground",
-      "rock"
+      "Ground",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -1571,10 +1628,11 @@
   },
   {
     "id": 112,
+    "gen": 1,
     "name": "Rhydon",
     "types": [
-      "ground",
-      "rock"
+      "Ground",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -1599,9 +1657,10 @@
   },
   {
     "id": 118,
+    "gen": 1,
     "name": "Goldeen",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1626,9 +1685,10 @@
   },
   {
     "id": 119,
+    "gen": 1,
     "name": "Seaking",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1653,10 +1713,11 @@
   },
   {
     "id": 122,
+    "gen": 1,
     "name": "Mr. Mime",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -1681,11 +1742,12 @@
   },
   {
     "id": 122,
+    "gen": 1,
     "name": "Mr. Mime-Galar",
     "form": "Galar",
     "types": [
-      "ice",
-      "psychic"
+      "Ice",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -1710,9 +1772,10 @@
   },
   {
     "id": 129,
+    "gen": 1,
     "name": "Magikarp",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1737,10 +1800,11 @@
   },
   {
     "id": 130,
+    "gen": 1,
     "name": "Gyarados",
     "types": [
-      "water",
-      "flying"
+      "Water",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -1765,10 +1829,11 @@
   },
   {
     "id": 131,
+    "gen": 1,
     "name": "Lapras",
     "types": [
-      "water",
-      "ice"
+      "Water",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -1793,9 +1858,10 @@
   },
   {
     "id": 132,
+    "gen": 1,
     "name": "Ditto",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -1820,9 +1886,10 @@
   },
   {
     "id": 133,
+    "gen": 1,
     "name": "Eevee",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -1847,9 +1914,10 @@
   },
   {
     "id": 134,
+    "gen": 1,
     "name": "Vaporeon",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -1874,9 +1942,10 @@
   },
   {
     "id": 135,
+    "gen": 1,
     "name": "Jolteon",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -1901,9 +1970,10 @@
   },
   {
     "id": 136,
+    "gen": 1,
     "name": "Flareon",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -1928,9 +1998,10 @@
   },
   {
     "id": 143,
+    "gen": 1,
     "name": "Snorlax",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -1955,9 +2026,10 @@
   },
   {
     "id": 150,
+    "gen": 1,
     "name": "Mewtwo",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -1982,9 +2054,10 @@
   },
   {
     "id": 151,
+    "gen": 1,
     "name": "Mew",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -2009,10 +2082,11 @@
   },
   {
     "id": 163,
+    "gen": 2,
     "name": "Hoothoot",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2037,10 +2111,11 @@
   },
   {
     "id": 164,
+    "gen": 2,
     "name": "Noctowl",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2065,10 +2140,11 @@
   },
   {
     "id": 170,
+    "gen": 2,
     "name": "Chinchou",
     "types": [
-      "water",
-      "electric"
+      "Water",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -2093,10 +2169,11 @@
   },
   {
     "id": 171,
+    "gen": 2,
     "name": "Lanturn",
     "types": [
-      "water",
-      "electric"
+      "Water",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -2121,9 +2198,10 @@
   },
   {
     "id": 172,
+    "gen": 2,
     "name": "Pichu",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -2148,9 +2226,10 @@
   },
   {
     "id": 173,
+    "gen": 2,
     "name": "Cleffa",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -2175,9 +2254,10 @@
   },
   {
     "id": 175,
+    "gen": 2,
     "name": "Togepi",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -2202,10 +2282,11 @@
   },
   {
     "id": 176,
+    "gen": 2,
     "name": "Togetic",
     "types": [
-      "fairy",
-      "flying"
+      "Fairy",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2230,10 +2311,11 @@
   },
   {
     "id": 177,
+    "gen": 2,
     "name": "Natu",
     "types": [
-      "psychic",
-      "flying"
+      "Psychic",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2258,10 +2340,11 @@
   },
   {
     "id": 178,
+    "gen": 2,
     "name": "Xatu",
     "types": [
-      "psychic",
-      "flying"
+      "Psychic",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2286,9 +2369,10 @@
   },
   {
     "id": 182,
+    "gen": 2,
     "name": "Bellossom",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -2313,9 +2397,10 @@
   },
   {
     "id": 185,
+    "gen": 2,
     "name": "Sudowoodo",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -2340,10 +2425,11 @@
   },
   {
     "id": 194,
+    "gen": 2,
     "name": "Wooper",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -2368,10 +2454,11 @@
   },
   {
     "id": 195,
+    "gen": 2,
     "name": "Quagsire",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -2396,9 +2483,10 @@
   },
   {
     "id": 196,
+    "gen": 2,
     "name": "Espeon",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -2423,9 +2511,10 @@
   },
   {
     "id": 197,
+    "gen": 2,
     "name": "Umbreon",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -2450,9 +2539,10 @@
   },
   {
     "id": 202,
+    "gen": 2,
     "name": "Wobbuffet",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -2477,10 +2567,11 @@
   },
   {
     "id": 208,
+    "gen": 2,
     "name": "Steelix",
     "types": [
-      "steel",
-      "ground"
+      "Steel",
+      "Ground"
     ],
     "defensives": [
       0.5,
@@ -2505,10 +2596,11 @@
   },
   {
     "id": 211,
+    "gen": 2,
     "name": "Qwilfish",
     "types": [
-      "water",
-      "poison"
+      "Water",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -2533,10 +2625,11 @@
   },
   {
     "id": 213,
+    "gen": 2,
     "name": "Shuckle",
     "types": [
-      "bug",
-      "rock"
+      "Bug",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -2561,10 +2654,11 @@
   },
   {
     "id": 215,
+    "gen": 2,
     "name": "Sneasel",
     "types": [
-      "dark",
-      "ice"
+      "Dark",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -2589,10 +2683,11 @@
   },
   {
     "id": 220,
+    "gen": 2,
     "name": "Swinub",
     "types": [
-      "ice",
-      "ground"
+      "Ice",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -2617,10 +2712,11 @@
   },
   {
     "id": 221,
+    "gen": 2,
     "name": "Piloswine",
     "types": [
-      "ice",
-      "ground"
+      "Ice",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -2645,10 +2741,11 @@
   },
   {
     "id": 222,
+    "gen": 2,
     "name": "Corsola",
     "types": [
-      "water",
-      "rock"
+      "Water",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -2673,10 +2770,11 @@
   },
   {
     "id": 222,
+    "gen": 2,
     "name": "Corsola-Galar",
     "form": "Galar",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -2701,9 +2799,10 @@
   },
   {
     "id": 223,
+    "gen": 2,
     "name": "Remoraid",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -2728,9 +2827,10 @@
   },
   {
     "id": 224,
+    "gen": 2,
     "name": "Octillery",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -2755,10 +2855,11 @@
   },
   {
     "id": 225,
+    "gen": 2,
     "name": "Delibird",
     "types": [
-      "ice",
-      "flying"
+      "Ice",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2783,10 +2884,11 @@
   },
   {
     "id": 226,
+    "gen": 2,
     "name": "Mantine",
     "types": [
-      "water",
-      "flying"
+      "Water",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -2811,9 +2913,10 @@
   },
   {
     "id": 236,
+    "gen": 2,
     "name": "Tyrogue",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -2838,9 +2941,10 @@
   },
   {
     "id": 237,
+    "gen": 2,
     "name": "Hitmontop",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -2865,10 +2969,11 @@
   },
   {
     "id": 246,
+    "gen": 2,
     "name": "Larvitar",
     "types": [
-      "rock",
-      "ground"
+      "Rock",
+      "Ground"
     ],
     "defensives": [
       0.5,
@@ -2893,10 +2998,11 @@
   },
   {
     "id": 247,
+    "gen": 2,
     "name": "Pupitar",
     "types": [
-      "rock",
-      "ground"
+      "Rock",
+      "Ground"
     ],
     "defensives": [
       0.5,
@@ -2921,10 +3027,11 @@
   },
   {
     "id": 248,
+    "gen": 2,
     "name": "Tyranitar",
     "types": [
-      "rock",
-      "dark"
+      "Rock",
+      "Dark"
     ],
     "defensives": [
       0.5,
@@ -2949,10 +3056,11 @@
   },
   {
     "id": 251,
+    "gen": 2,
     "name": "Celebi",
     "types": [
-      "psychic",
-      "grass"
+      "Psychic",
+      "Grass"
     ],
     "defensives": [
       1,
@@ -2977,9 +3085,10 @@
   },
   {
     "id": 263,
+    "gen": 3,
     "name": "Zigzagoon",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -3004,11 +3113,12 @@
   },
   {
     "id": 263,
+    "gen": 3,
     "name": "Zigzagoon-Galar",
     "form": "Galar",
     "types": [
-      "dark",
-      "normal"
+      "Dark",
+      "Normal"
     ],
     "defensives": [
       1,
@@ -3033,9 +3143,10 @@
   },
   {
     "id": 264,
+    "gen": 3,
     "name": "Linoone",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -3060,11 +3171,12 @@
   },
   {
     "id": 264,
+    "gen": 3,
     "name": "Linoone-Galar",
     "form": "Galar",
     "types": [
-      "dark",
-      "normal"
+      "Dark",
+      "Normal"
     ],
     "defensives": [
       1,
@@ -3089,10 +3201,11 @@
   },
   {
     "id": 270,
+    "gen": 3,
     "name": "Lotad",
     "types": [
-      "water",
-      "grass"
+      "Water",
+      "Grass"
     ],
     "defensives": [
       1,
@@ -3117,10 +3230,11 @@
   },
   {
     "id": 271,
+    "gen": 3,
     "name": "Lombre",
     "types": [
-      "water",
-      "grass"
+      "Water",
+      "Grass"
     ],
     "defensives": [
       1,
@@ -3145,10 +3259,11 @@
   },
   {
     "id": 272,
+    "gen": 3,
     "name": "Ludicolo",
     "types": [
-      "water",
-      "grass"
+      "Water",
+      "Grass"
     ],
     "defensives": [
       1,
@@ -3173,9 +3288,10 @@
   },
   {
     "id": 273,
+    "gen": 3,
     "name": "Seedot",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -3200,10 +3316,11 @@
   },
   {
     "id": 274,
+    "gen": 3,
     "name": "Nuzleaf",
     "types": [
-      "grass",
-      "dark"
+      "Grass",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -3228,10 +3345,11 @@
   },
   {
     "id": 275,
+    "gen": 3,
     "name": "Shiftry",
     "types": [
-      "grass",
-      "dark"
+      "Grass",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -3256,10 +3374,11 @@
   },
   {
     "id": 278,
+    "gen": 3,
     "name": "Wingull",
     "types": [
-      "water",
-      "flying"
+      "Water",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -3284,10 +3403,11 @@
   },
   {
     "id": 279,
+    "gen": 3,
     "name": "Pelipper",
     "types": [
-      "water",
-      "flying"
+      "Water",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -3312,10 +3432,11 @@
   },
   {
     "id": 280,
+    "gen": 3,
     "name": "Ralts",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -3340,10 +3461,11 @@
   },
   {
     "id": 281,
+    "gen": 3,
     "name": "Kirlia",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -3368,10 +3490,11 @@
   },
   {
     "id": 282,
+    "gen": 3,
     "name": "Gardevoir",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -3396,10 +3519,11 @@
   },
   {
     "id": 290,
+    "gen": 3,
     "name": "Nincada",
     "types": [
-      "bug",
-      "ground"
+      "Bug",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -3424,10 +3548,11 @@
   },
   {
     "id": 291,
+    "gen": 3,
     "name": "Ninjask",
     "types": [
-      "bug",
-      "flying"
+      "Bug",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -3452,10 +3577,11 @@
   },
   {
     "id": 292,
+    "gen": 3,
     "name": "Shedinja",
     "types": [
-      "bug",
-      "ghost"
+      "Bug",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -3480,10 +3606,11 @@
   },
   {
     "id": 302,
+    "gen": 3,
     "name": "Sableye",
     "types": [
-      "dark",
-      "ghost"
+      "Dark",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -3508,10 +3635,11 @@
   },
   {
     "id": 303,
+    "gen": 3,
     "name": "Mawile",
     "types": [
-      "steel",
-      "fairy"
+      "Steel",
+      "Fairy"
     ],
     "defensives": [
       0.5,
@@ -3536,9 +3664,10 @@
   },
   {
     "id": 309,
+    "gen": 3,
     "name": "Electrike",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -3563,9 +3692,10 @@
   },
   {
     "id": 310,
+    "gen": 3,
     "name": "Manectric",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -3590,10 +3720,11 @@
   },
   {
     "id": 315,
+    "gen": 3,
     "name": "Roselia",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -3618,9 +3749,10 @@
   },
   {
     "id": 320,
+    "gen": 3,
     "name": "Wailmer",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -3645,9 +3777,10 @@
   },
   {
     "id": 321,
+    "gen": 3,
     "name": "Wailord",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -3672,9 +3805,10 @@
   },
   {
     "id": 324,
+    "gen": 3,
     "name": "Torkoal",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -3699,9 +3833,10 @@
   },
   {
     "id": 328,
+    "gen": 3,
     "name": "Trapinch",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -3726,10 +3861,11 @@
   },
   {
     "id": 329,
+    "gen": 3,
     "name": "Vibrava",
     "types": [
-      "ground",
-      "dragon"
+      "Ground",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -3754,10 +3890,11 @@
   },
   {
     "id": 330,
+    "gen": 3,
     "name": "Flygon",
     "types": [
-      "ground",
-      "dragon"
+      "Ground",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -3782,10 +3919,11 @@
   },
   {
     "id": 337,
+    "gen": 3,
     "name": "Lunatone",
     "types": [
-      "rock",
-      "psychic"
+      "Rock",
+      "Psychic"
     ],
     "defensives": [
       0.5,
@@ -3810,10 +3948,11 @@
   },
   {
     "id": 338,
-    "name": "Solrock",
+    "gen": 3,
+    "name": "SolRock",
     "types": [
-      "rock",
-      "psychic"
+      "Rock",
+      "Psychic"
     ],
     "defensives": [
       0.5,
@@ -3838,10 +3977,11 @@
   },
   {
     "id": 339,
+    "gen": 3,
     "name": "Barboach",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -3866,10 +4006,11 @@
   },
   {
     "id": 340,
+    "gen": 3,
     "name": "Whiscash",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -3894,9 +4035,10 @@
   },
   {
     "id": 341,
+    "gen": 3,
     "name": "Corphish",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -3921,10 +4063,11 @@
   },
   {
     "id": 342,
+    "gen": 3,
     "name": "Crawdaunt",
     "types": [
-      "water",
-      "dark"
+      "Water",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -3949,10 +4092,11 @@
   },
   {
     "id": 343,
+    "gen": 3,
     "name": "Baltoy",
     "types": [
-      "ground",
-      "psychic"
+      "Ground",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -3977,10 +4121,11 @@
   },
   {
     "id": 344,
+    "gen": 3,
     "name": "Claydol",
     "types": [
-      "ground",
-      "psychic"
+      "Ground",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -4005,9 +4150,10 @@
   },
   {
     "id": 349,
+    "gen": 3,
     "name": "Feebas",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -4032,9 +4178,10 @@
   },
   {
     "id": 350,
+    "gen": 3,
     "name": "Milotic",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -4059,9 +4206,10 @@
   },
   {
     "id": 355,
+    "gen": 3,
     "name": "Duskull",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -4086,9 +4234,10 @@
   },
   {
     "id": 356,
+    "gen": 3,
     "name": "Dusclops",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -4113,9 +4262,10 @@
   },
   {
     "id": 360,
+    "gen": 3,
     "name": "Wynaut",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -4140,9 +4290,10 @@
   },
   {
     "id": 361,
+    "gen": 3,
     "name": "Snorunt",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -4167,9 +4318,10 @@
   },
   {
     "id": 362,
+    "gen": 3,
     "name": "Glalie",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -4194,10 +4346,11 @@
   },
   {
     "id": 385,
+    "gen": 3,
     "name": "Jirachi",
     "types": [
-      "steel",
-      "psychic"
+      "Steel",
+      "Psychic"
     ],
     "defensives": [
       0.5,
@@ -4222,10 +4375,11 @@
   },
   {
     "id": 406,
+    "gen": 4,
     "name": "Budew",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -4250,10 +4404,11 @@
   },
   {
     "id": 407,
+    "gen": 4,
     "name": "Roserade",
     "types": [
-      "grass",
-      "poison"
+      "Grass",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -4278,10 +4433,11 @@
   },
   {
     "id": 415,
+    "gen": 4,
     "name": "Combee",
     "types": [
-      "bug",
-      "flying"
+      "Bug",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -4306,10 +4462,11 @@
   },
   {
     "id": 416,
+    "gen": 4,
     "name": "Vespiquen",
     "types": [
-      "bug",
-      "flying"
+      "Bug",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -4334,9 +4491,10 @@
   },
   {
     "id": 420,
+    "gen": 4,
     "name": "Cherubi",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -4361,9 +4519,10 @@
   },
   {
     "id": 421,
+    "gen": 4,
     "name": "Cherrim",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -4388,9 +4547,10 @@
   },
   {
     "id": 422,
+    "gen": 4,
     "name": "Shellos",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -4415,10 +4575,11 @@
   },
   {
     "id": 423,
+    "gen": 4,
     "name": "Gastrodon",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -4443,10 +4604,11 @@
   },
   {
     "id": 425,
+    "gen": 4,
     "name": "Drifloon",
     "types": [
-      "ghost",
-      "flying"
+      "Ghost",
+      "Flying"
     ],
     "defensives": [
       0,
@@ -4471,10 +4633,11 @@
   },
   {
     "id": 426,
+    "gen": 4,
     "name": "Drifblim",
     "types": [
-      "ghost",
-      "flying"
+      "Ghost",
+      "Flying"
     ],
     "defensives": [
       0,
@@ -4499,10 +4662,11 @@
   },
   {
     "id": 434,
+    "gen": 4,
     "name": "Stunky",
     "types": [
-      "poison",
-      "dark"
+      "Poison",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -4527,10 +4691,11 @@
   },
   {
     "id": 435,
+    "gen": 4,
     "name": "Skuntank",
     "types": [
-      "poison",
-      "dark"
+      "Poison",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -4555,10 +4720,11 @@
   },
   {
     "id": 436,
+    "gen": 4,
     "name": "Bronzor",
     "types": [
-      "steel",
-      "psychic"
+      "Steel",
+      "Psychic"
     ],
     "defensives": [
       0.5,
@@ -4583,10 +4749,11 @@
   },
   {
     "id": 437,
+    "gen": 4,
     "name": "Bronzong",
     "types": [
-      "steel",
-      "psychic"
+      "Steel",
+      "Psychic"
     ],
     "defensives": [
       0.5,
@@ -4611,9 +4778,10 @@
   },
   {
     "id": 438,
+    "gen": 4,
     "name": "Bonsly",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -4638,10 +4806,11 @@
   },
   {
     "id": 439,
+    "gen": 4,
     "name": "Mime Jr.",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -4666,9 +4835,10 @@
   },
   {
     "id": 446,
+    "gen": 4,
     "name": "Munchlax",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -4693,9 +4863,10 @@
   },
   {
     "id": 447,
+    "gen": 4,
     "name": "Riolu",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -4720,10 +4891,11 @@
   },
   {
     "id": 448,
+    "gen": 4,
     "name": "Lucario",
     "types": [
-      "fighting",
-      "steel"
+      "Fighting",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -4748,9 +4920,10 @@
   },
   {
     "id": 449,
+    "gen": 4,
     "name": "Hippopotas",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -4775,9 +4948,10 @@
   },
   {
     "id": 450,
+    "gen": 4,
     "name": "Hippowdon",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -4802,10 +4976,11 @@
   },
   {
     "id": 451,
+    "gen": 4,
     "name": "Skorupi",
     "types": [
-      "poison",
-      "bug"
+      "Poison",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -4830,10 +5005,11 @@
   },
   {
     "id": 452,
+    "gen": 4,
     "name": "Drapion",
     "types": [
-      "poison",
-      "dark"
+      "Poison",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -4858,10 +5034,11 @@
   },
   {
     "id": 453,
+    "gen": 4,
     "name": "Croagunk",
     "types": [
-      "poison",
-      "fighting"
+      "Poison",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -4886,10 +5063,11 @@
   },
   {
     "id": 454,
+    "gen": 4,
     "name": "Toxicroak",
     "types": [
-      "poison",
-      "fighting"
+      "Poison",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -4914,10 +5092,11 @@
   },
   {
     "id": 458,
+    "gen": 4,
     "name": "Mantyke",
     "types": [
-      "water",
-      "flying"
+      "Water",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -4942,10 +5121,11 @@
   },
   {
     "id": 459,
+    "gen": 4,
     "name": "Snover",
     "types": [
-      "grass",
-      "ice"
+      "Grass",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -4970,10 +5150,11 @@
   },
   {
     "id": 460,
+    "gen": 4,
     "name": "Abomasnow",
     "types": [
-      "grass",
-      "ice"
+      "Grass",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -4998,10 +5179,11 @@
   },
   {
     "id": 461,
+    "gen": 4,
     "name": "Weavile",
     "types": [
-      "dark",
-      "ice"
+      "Dark",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -5026,10 +5208,11 @@
   },
   {
     "id": 464,
+    "gen": 4,
     "name": "Rhyperior",
     "types": [
-      "ground",
-      "rock"
+      "Ground",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -5054,10 +5237,11 @@
   },
   {
     "id": 468,
+    "gen": 4,
     "name": "Togekiss",
     "types": [
-      "fairy",
-      "flying"
+      "Fairy",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -5082,9 +5266,10 @@
   },
   {
     "id": 470,
+    "gen": 4,
     "name": "Leafeon",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -5109,9 +5294,10 @@
   },
   {
     "id": 471,
+    "gen": 4,
     "name": "Glaceon",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -5136,10 +5322,11 @@
   },
   {
     "id": 473,
+    "gen": 4,
     "name": "Mamoswine",
     "types": [
-      "ice",
-      "ground"
+      "Ice",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -5164,10 +5351,11 @@
   },
   {
     "id": 475,
+    "gen": 4,
     "name": "Gallade",
     "types": [
-      "psychic",
-      "fighting"
+      "Psychic",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -5192,9 +5380,10 @@
   },
   {
     "id": 477,
+    "gen": 4,
     "name": "Dusknoir",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       1,
@@ -5219,10 +5408,11 @@
   },
   {
     "id": 478,
+    "gen": 4,
     "name": "Froslass",
     "types": [
-      "ice",
-      "ghost"
+      "Ice",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -5247,10 +5437,11 @@
   },
   {
     "id": 479,
+    "gen": 4,
     "name": "Rotom",
     "types": [
-      "electric",
-      "ghost"
+      "Electric",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -5275,11 +5466,12 @@
   },
   {
     "id": 479,
+    "gen": 4,
     "name": "Rotom-Frost",
     "form": "Frost",
     "types": [
-      "electric",
-      "ice"
+      "Electric",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -5304,11 +5496,12 @@
   },
   {
     "id": 479,
+    "gen": 4,
     "name": "Rotom-Heat",
     "form": "Heat",
     "types": [
-      "electric",
-      "fire"
+      "Electric",
+      "Fire"
     ],
     "defensives": [
       1,
@@ -5333,11 +5526,12 @@
   },
   {
     "id": 479,
+    "gen": 4,
     "name": "Rotom-Mow",
     "form": "Mow",
     "types": [
-      "electric",
-      "grass"
+      "Electric",
+      "Grass"
     ],
     "defensives": [
       1,
@@ -5362,10 +5556,11 @@
   },
   {
     "id": 479,
+    "gen": 4,
     "name": "Rotom-Fan",
     "form": "Fan",
     "types": [
-      "electric",
+      "Electric",
       "fan"
     ],
     "defensives": [
@@ -5391,11 +5586,12 @@
   },
   {
     "id": 479,
+    "gen": 4,
     "name": "Rotom-Wash",
     "form": "Wash",
     "types": [
-      "electric",
-      "water"
+      "Electric",
+      "Water"
     ],
     "defensives": [
       1,
@@ -5420,9 +5616,10 @@
   },
   {
     "id": 509,
+    "gen": 5,
     "name": ",Purrloin",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -5447,9 +5644,10 @@
   },
   {
     "id": 510,
+    "gen": 5,
     "name": "Liepard",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -5474,9 +5672,10 @@
   },
   {
     "id": 517,
+    "gen": 5,
     "name": "Munna",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -5501,9 +5700,10 @@
   },
   {
     "id": 518,
+    "gen": 5,
     "name": "Musharna",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -5528,10 +5728,11 @@
   },
   {
     "id": 519,
+    "gen": 5,
     "name": "Pidove",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -5556,10 +5757,11 @@
   },
   {
     "id": 520,
+    "gen": 5,
     "name": "Tranquill",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -5584,10 +5786,11 @@
   },
   {
     "id": 521,
+    "gen": 5,
     "name": "Unfezant",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -5612,9 +5815,10 @@
   },
   {
     "id": 524,
+    "gen": 5,
     "name": "Roggenrola",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -5639,9 +5843,10 @@
   },
   {
     "id": 525,
+    "gen": 5,
     "name": "Boldore",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -5666,9 +5871,10 @@
   },
   {
     "id": 526,
+    "gen": 5,
     "name": "Gigalith",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -5693,10 +5899,11 @@
   },
   {
     "id": 527,
+    "gen": 5,
     "name": "Woobat",
     "types": [
-      "psychic",
-      "flying"
+      "Psychic",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -5721,10 +5928,11 @@
   },
   {
     "id": 528,
+    "gen": 5,
     "name": "Swoobat",
     "types": [
-      "psychic",
-      "flying"
+      "Psychic",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -5749,9 +5957,10 @@
   },
   {
     "id": 529,
+    "gen": 5,
     "name": "Drilbur",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -5776,10 +5985,11 @@
   },
   {
     "id": 530,
+    "gen": 5,
     "name": "Excadrill",
     "types": [
-      "ground",
-      "steel"
+      "Ground",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -5804,9 +6014,10 @@
   },
   {
     "id": 532,
+    "gen": 5,
     "name": "Timburr",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -5831,9 +6042,10 @@
   },
   {
     "id": 533,
+    "gen": 5,
     "name": "Gurdurr",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -5858,9 +6070,10 @@
   },
   {
     "id": 534,
+    "gen": 5,
     "name": "Conkeldurr",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -5885,9 +6098,10 @@
   },
   {
     "id": 535,
+    "gen": 5,
     "name": "Tympole",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -5912,10 +6126,11 @@
   },
   {
     "id": 536,
+    "gen": 5,
     "name": "Palpitoad",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -5940,10 +6155,11 @@
   },
   {
     "id": 537,
+    "gen": 5,
     "name": "Seismitoad",
     "types": [
-      "water",
-      "ground"
+      "Water",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -5968,9 +6184,10 @@
   },
   {
     "id": 538,
+    "gen": 5,
     "name": "Throh",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -5995,9 +6212,10 @@
   },
   {
     "id": 539,
+    "gen": 5,
     "name": "Sawk",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -6022,10 +6240,11 @@
   },
   {
     "id": 546,
+    "gen": 5,
     "name": "Cottonee",
     "types": [
-      "grass",
-      "fairy"
+      "Grass",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -6050,10 +6269,11 @@
   },
   {
     "id": 547,
+    "gen": 5,
     "name": "Whimsicott",
     "types": [
-      "grass",
-      "fairy"
+      "Grass",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -6078,9 +6298,10 @@
   },
   {
     "id": 550,
+    "gen": 5,
     "name": "Basculin",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -6105,9 +6326,10 @@
   },
   {
     "id": 554,
+    "gen": 5,
     "name": "Darumaka",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -6132,10 +6354,11 @@
   },
   {
     "id": 554,
+    "gen": 5,
     "name": "Darumaka-Galar",
     "form": "Galar",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -6160,9 +6383,10 @@
   },
   {
     "id": 555,
+    "gen": 5,
     "name": "Darmanitan",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -6187,10 +6411,11 @@
   },
   {
     "id": 555,
+    "gen": 5,
     "name": "Darmanitan-Galar",
     "form": "Galar",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -6215,9 +6440,10 @@
   },
   {
     "id": 556,
+    "gen": 5,
     "name": "Maractus",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -6242,10 +6468,11 @@
   },
   {
     "id": 557,
+    "gen": 5,
     "name": "Dwebble",
     "types": [
-      "bug",
-      "rock"
+      "Bug",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -6270,10 +6497,11 @@
   },
   {
     "id": 558,
+    "gen": 5,
     "name": "Crustle",
     "types": [
-      "bug",
-      "rock"
+      "Bug",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -6298,10 +6526,11 @@
   },
   {
     "id": 559,
+    "gen": 5,
     "name": "Scraggy",
     "types": [
-      "dark",
-      "fighting"
+      "Dark",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -6326,10 +6555,11 @@
   },
   {
     "id": 560,
+    "gen": 5,
     "name": "Scrafty",
     "types": [
-      "dark",
-      "fighting"
+      "Dark",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -6354,10 +6584,11 @@
   },
   {
     "id": 561,
+    "gen": 5,
     "name": "Sigilyph",
     "types": [
-      "psychic",
-      "flying"
+      "Psychic",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -6382,9 +6613,10 @@
   },
   {
     "id": 562,
+    "gen": 5,
     "name": "Yamask",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -6409,11 +6641,12 @@
   },
   {
     "id": 562,
+    "gen": 5,
     "name": "Yamask-Galar",
     "form": "Galar",
     "types": [
-      "ground",
-      "ghost"
+      "Ground",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -6438,9 +6671,10 @@
   },
   {
     "id": 563,
+    "gen": 5,
     "name": "Cofagrigus",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -6465,9 +6699,10 @@
   },
   {
     "id": 568,
+    "gen": 5,
     "name": "Trubbish",
     "types": [
-      "poison"
+      "Poison"
     ],
     "defensives": [
       1,
@@ -6492,9 +6727,10 @@
   },
   {
     "id": 569,
+    "gen": 5,
     "name": "Garbodor",
     "types": [
-      "poison"
+      "Poison"
     ],
     "defensives": [
       1,
@@ -6519,9 +6755,10 @@
   },
   {
     "id": 572,
+    "gen": 5,
     "name": "Minccino",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -6546,9 +6783,10 @@
   },
   {
     "id": 573,
+    "gen": 5,
     "name": "Cinccino",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -6573,9 +6811,10 @@
   },
   {
     "id": 574,
+    "gen": 5,
     "name": "Gothita",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -6600,9 +6839,10 @@
   },
   {
     "id": 574,
+    "gen": 5,
     "name": "Gothorita",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -6627,9 +6867,10 @@
   },
   {
     "id": 576,
+    "gen": 5,
     "name": "Gothitelle",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -6654,9 +6895,10 @@
   },
   {
     "id": 577,
+    "gen": 5,
     "name": "Solosis",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -6681,9 +6923,10 @@
   },
   {
     "id": 578,
+    "gen": 5,
     "name": "Duosion",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -6708,9 +6951,10 @@
   },
   {
     "id": 579,
+    "gen": 5,
     "name": "Reuniclus",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -6735,9 +6979,10 @@
   },
   {
     "id": 582,
+    "gen": 5,
     "name": "Vanillite",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -6762,9 +7007,10 @@
   },
   {
     "id": 583,
+    "gen": 5,
     "name": "Vanillish",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -6789,9 +7035,10 @@
   },
   {
     "id": 584,
+    "gen": 5,
     "name": "Vanilluxe",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -6816,9 +7063,10 @@
   },
   {
     "id": 588,
+    "gen": 5,
     "name": "Karrablast",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -6843,10 +7091,11 @@
   },
   {
     "id": 589,
+    "gen": 5,
     "name": "Escavalier",
     "types": [
-      "bug",
-      "steel"
+      "Bug",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -6871,10 +7120,11 @@
   },
   {
     "id": 592,
+    "gen": 5,
     "name": "Frillish",
     "types": [
-      "water",
-      "ghost"
+      "Water",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -6899,10 +7149,11 @@
   },
   {
     "id": 593,
-    "name": "Jellicent",
+    "gen": 5,
+    "name": "JellIcent",
     "types": [
-      "water",
-      "ghost"
+      "Water",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -6927,10 +7178,11 @@
   },
   {
     "id": 595,
+    "gen": 5,
     "name": "Joltik",
     "types": [
-      "bug",
-      "electric"
+      "Bug",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -6955,10 +7207,11 @@
   },
   {
     "id": 596,
+    "gen": 5,
     "name": "Galvantula",
     "types": [
-      "bug",
-      "electric"
+      "Bug",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -6983,10 +7236,11 @@
   },
   {
     "id": 597,
+    "gen": 5,
     "name": "Ferroseed",
     "types": [
-      "grass",
-      "steel"
+      "Grass",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7011,10 +7265,11 @@
   },
   {
     "id": 598,
+    "gen": 5,
     "name": "Ferrothorn",
     "types": [
-      "grass",
-      "steel"
+      "Grass",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7039,9 +7294,10 @@
   },
   {
     "id": 599,
+    "gen": 5,
     "name": "Klink",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7066,9 +7322,10 @@
   },
   {
     "id": 600,
+    "gen": 5,
     "name": "Klang",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7093,9 +7350,10 @@
   },
   {
     "id": 601,
+    "gen": 5,
     "name": "Klinklang",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7120,9 +7378,10 @@
   },
   {
     "id": 605,
+    "gen": 5,
     "name": "Elgyem",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -7147,9 +7406,10 @@
   },
   {
     "id": 606,
+    "gen": 5,
     "name": "Beheeyem",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -7174,10 +7434,11 @@
   },
   {
     "id": 607,
+    "gen": 5,
     "name": "Litwick",
     "types": [
-      "ghost",
-      "fire"
+      "Ghost",
+      "Fire"
     ],
     "defensives": [
       0,
@@ -7202,10 +7463,11 @@
   },
   {
     "id": 608,
+    "gen": 5,
     "name": "Lampent",
     "types": [
-      "ghost",
-      "fire"
+      "Ghost",
+      "Fire"
     ],
     "defensives": [
       0,
@@ -7230,10 +7492,11 @@
   },
   {
     "id": 609,
+    "gen": 5,
     "name": "Chandelure",
     "types": [
-      "ghost",
-      "fire"
+      "Ghost",
+      "Fire"
     ],
     "defensives": [
       0,
@@ -7258,9 +7521,10 @@
   },
   {
     "id": 610,
+    "gen": 5,
     "name": "Axew",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -7285,9 +7549,10 @@
   },
   {
     "id": 611,
+    "gen": 5,
     "name": "Fraxure",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -7312,9 +7577,10 @@
   },
   {
     "id": 612,
+    "gen": 5,
     "name": "Haxorus",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -7339,9 +7605,10 @@
   },
   {
     "id": 613,
+    "gen": 5,
     "name": "Cubchoo",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -7366,9 +7633,10 @@
   },
   {
     "id": 614,
+    "gen": 5,
     "name": "Beartic",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -7393,9 +7661,10 @@
   },
   {
     "id": 616,
+    "gen": 5,
     "name": "Shelmet",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -7420,9 +7689,10 @@
   },
   {
     "id": 617,
+    "gen": 5,
     "name": "Accelgor",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -7447,10 +7717,11 @@
   },
   {
     "id": 618,
+    "gen": 5,
     "name": "Stunfisk",
     "types": [
-      "ground",
-      "electric"
+      "Ground",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -7475,11 +7746,12 @@
   },
   {
     "id": 618,
+    "gen": 5,
     "name": "Stunfisk-Galar",
     "form": "Galar",
     "types": [
-      "ground",
-      "steel"
+      "Ground",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7504,10 +7776,11 @@
   },
   {
     "id": 622,
+    "gen": 5,
     "name": "Golett",
     "types": [
-      "ground",
-      "ghost"
+      "Ground",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -7532,10 +7805,11 @@
   },
   {
     "id": 623,
+    "gen": 5,
     "name": "Golurk",
     "types": [
-      "ground",
-      "ghost"
+      "Ground",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -7560,10 +7834,11 @@
   },
   {
     "id": 624,
+    "gen": 5,
     "name": "Pawniard",
     "types": [
-      "dark",
-      "steel"
+      "Dark",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7588,10 +7863,11 @@
   },
   {
     "id": 625,
+    "gen": 5,
     "name": "Bisharp",
     "types": [
-      "dark",
-      "steel"
+      "Dark",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7616,10 +7892,11 @@
   },
   {
     "id": 627,
+    "gen": 5,
     "name": "Rufflet",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -7644,10 +7921,11 @@
   },
   {
     "id": 628,
+    "gen": 5,
     "name": "Braviary",
     "types": [
-      "normal",
-      "flying"
+      "Normal",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -7672,10 +7950,11 @@
   },
   {
     "id": 629,
+    "gen": 5,
     "name": "Vullaby",
     "types": [
-      "dark",
-      "flying"
+      "Dark",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -7700,10 +7979,11 @@
   },
   {
     "id": 630,
+    "gen": 5,
     "name": "Mandibuzz",
     "types": [
-      "dark",
-      "flying"
+      "Dark",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -7728,9 +8008,10 @@
   },
   {
     "id": 631,
+    "gen": 5,
     "name": "Heatmor",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -7755,10 +8036,11 @@
   },
   {
     "id": 632,
+    "gen": 5,
     "name": "Durant",
     "types": [
-      "bug",
-      "steel"
+      "Bug",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -7783,10 +8065,11 @@
   },
   {
     "id": 633,
+    "gen": 5,
     "name": "Deino",
     "types": [
-      "dark",
-      "dragon"
+      "Dark",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -7811,10 +8094,11 @@
   },
   {
     "id": 634,
+    "gen": 5,
     "name": "Zweilous",
     "types": [
-      "dark",
-      "dragon"
+      "Dark",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -7839,10 +8123,11 @@
   },
   {
     "id": 635,
+    "gen": 5,
     "name": "Hydreigon",
     "types": [
-      "dark",
-      "dragon"
+      "Dark",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -7867,10 +8152,11 @@
   },
   {
     "id": 638,
+    "gen": 5,
     "name": "Cobalion",
     "types": [
-      "steel",
-      "fighting"
+      "Steel",
+      "Fighting"
     ],
     "defensives": [
       0.5,
@@ -7895,10 +8181,11 @@
   },
   {
     "id": 639,
+    "gen": 5,
     "name": "Terrakion",
     "types": [
-      "rock",
-      "fighting"
+      "Rock",
+      "Fighting"
     ],
     "defensives": [
       0.5,
@@ -7923,10 +8210,11 @@
   },
   {
     "id": 640,
+    "gen": 5,
     "name": "Virizion",
     "types": [
-      "grass",
-      "fighting"
+      "Grass",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -7951,10 +8239,11 @@
   },
   {
     "id": 643,
+    "gen": 5,
     "name": "Reshiram",
     "types": [
-      "dragon",
-      "fire"
+      "Dragon",
+      "Fire"
     ],
     "defensives": [
       1,
@@ -7979,10 +8268,11 @@
   },
   {
     "id": 644,
+    "gen": 5,
     "name": "Zekrom",
     "types": [
-      "dragon",
-      "electric"
+      "Dragon",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -8007,10 +8297,11 @@
   },
   {
     "id": 646,
+    "gen": 5,
     "name": "Kyurem",
     "types": [
-      "dragon",
-      "ice"
+      "Dragon",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -8035,10 +8326,11 @@
   },
   {
     "id": 647,
+    "gen": 5,
     "name": "Keldeo",
     "types": [
-      "water",
-      "fighting"
+      "Water",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -8063,9 +8355,10 @@
   },
   {
     "id": 659,
+    "gen": 6,
     "name": "Bunnelby",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -8090,10 +8383,11 @@
   },
   {
     "id": 660,
+    "gen": 6,
     "name": "Diggersby",
     "types": [
-      "normal",
-      "ground"
+      "Normal",
+      "Ground"
     ],
     "defensives": [
       1,
@@ -8118,9 +8412,10 @@
   },
   {
     "id": 674,
+    "gen": 6,
     "name": "Pancham",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -8145,10 +8440,11 @@
   },
   {
     "id": 675,
+    "gen": 6,
     "name": "Pangoro",
     "types": [
-      "fighting",
-      "dark"
+      "Fighting",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -8173,9 +8469,10 @@
   },
   {
     "id": 677,
+    "gen": 6,
     "name": "Espurr",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -8200,9 +8497,10 @@
   },
   {
     "id": 678,
+    "gen": 6,
     "name": "Meowstic",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -8227,10 +8525,11 @@
   },
   {
     "id": 679,
+    "gen": 6,
     "name": "Honedge",
     "types": [
-      "steel",
-      "ghost"
+      "Steel",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -8255,10 +8554,11 @@
   },
   {
     "id": 680,
+    "gen": 6,
     "name": "Doublade",
     "types": [
-      "steel",
-      "ghost"
+      "Steel",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -8283,10 +8583,11 @@
   },
   {
     "id": 681,
+    "gen": 6,
     "name": "Aegislash",
     "types": [
-      "steel",
-      "ghost"
+      "Steel",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -8311,9 +8612,10 @@
   },
   {
     "id": 682,
+    "gen": 6,
     "name": "Spritzee",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -8338,9 +8640,10 @@
   },
   {
     "id": 683,
+    "gen": 6,
     "name": "Aromatisse",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -8365,9 +8668,10 @@
   },
   {
     "id": 684,
+    "gen": 6,
     "name": "Swirlix",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -8392,9 +8696,10 @@
   },
   {
     "id": 685,
+    "gen": 6,
     "name": "Slurpuff",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -8419,10 +8724,11 @@
   },
   {
     "id": 686,
+    "gen": 6,
     "name": "Inkay",
     "types": [
-      "dark",
-      "psychic"
+      "Dark",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -8447,10 +8753,11 @@
   },
   {
     "id": 687,
+    "gen": 6,
     "name": "Malamar",
     "types": [
-      "dark",
-      "psychic"
+      "Dark",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -8475,10 +8782,11 @@
   },
   {
     "id": 688,
+    "gen": 6,
     "name": "Binacle",
     "types": [
-      "rock",
-      "water"
+      "Rock",
+      "Water"
     ],
     "defensives": [
       0.5,
@@ -8503,10 +8811,11 @@
   },
   {
     "id": 689,
+    "gen": 6,
     "name": "Barbaracle",
     "types": [
-      "rock",
-      "water"
+      "Rock",
+      "Water"
     ],
     "defensives": [
       0.5,
@@ -8531,10 +8840,11 @@
   },
   {
     "id": 694,
+    "gen": 6,
     "name": "Helioptile",
     "types": [
-      "electric",
-      "normal"
+      "Electric",
+      "Normal"
     ],
     "defensives": [
       1,
@@ -8559,10 +8869,11 @@
   },
   {
     "id": 695,
+    "gen": 6,
     "name": "Heliolisk",
     "types": [
-      "electric",
-      "normal"
+      "Electric",
+      "Normal"
     ],
     "defensives": [
       1,
@@ -8587,9 +8898,10 @@
   },
   {
     "id": 700,
+    "gen": 6,
     "name": "Sylveon",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -8614,10 +8926,11 @@
   },
   {
     "id": 701,
+    "gen": 6,
     "name": "Hawlucha",
     "types": [
-      "fighting",
-      "flying"
+      "Fighting",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -8642,9 +8955,10 @@
   },
   {
     "id": 704,
+    "gen": 6,
     "name": "Goomy",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -8669,9 +8983,10 @@
   },
   {
     "id": 705,
+    "gen": 6,
     "name": "Sliggoo",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -8696,9 +9011,10 @@
   },
   {
     "id": 706,
+    "gen": 6,
     "name": "Goodra",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -8723,10 +9039,11 @@
   },
   {
     "id": 708,
+    "gen": 6,
     "name": "Phantump",
     "types": [
-      "ghost",
-      "grass"
+      "Ghost",
+      "Grass"
     ],
     "defensives": [
       0,
@@ -8751,10 +9068,11 @@
   },
   {
     "id": 709,
+    "gen": 6,
     "name": "Trevenant",
     "types": [
-      "ghost",
-      "grass"
+      "Ghost",
+      "Grass"
     ],
     "defensives": [
       0,
@@ -8779,10 +9097,11 @@
   },
   {
     "id": 710,
+    "gen": 6,
     "name": "Pumpkaboo",
     "types": [
-      "ghost",
-      "grass"
+      "Ghost",
+      "Grass"
     ],
     "defensives": [
       0,
@@ -8807,10 +9126,11 @@
   },
   {
     "id": 711,
+    "gen": 6,
     "name": "Gourgeist",
     "types": [
-      "ghost",
-      "grass"
+      "Ghost",
+      "Grass"
     ],
     "defensives": [
       0,
@@ -8835,9 +9155,10 @@
   },
   {
     "id": 712,
+    "gen": 6,
     "name": "Bergmite",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -8862,9 +9183,10 @@
   },
   {
     "id": 713,
+    "gen": 6,
     "name": "Avalugg",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -8889,10 +9211,11 @@
   },
   {
     "id": 714,
+    "gen": 6,
     "name": "Noibat",
     "types": [
-      "flying",
-      "dragon"
+      "Flying",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -8917,10 +9240,11 @@
   },
   {
     "id": 715,
+    "gen": 6,
     "name": "Noivern",
     "types": [
-      "flying",
-      "dragon"
+      "Flying",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -8945,10 +9269,11 @@
   },
   {
     "id": 722,
+    "gen": 7,
     "name": "Rowlet",
     "types": [
-      "grass",
-      "flying"
+      "Grass",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -8973,10 +9298,11 @@
   },
   {
     "id": 723,
+    "gen": 7,
     "name": "Dartrix",
     "types": [
-      "grass",
-      "flying"
+      "Grass",
+      "Flying"
     ],
     "defensives": [
       1,
@@ -9001,10 +9327,11 @@
   },
   {
     "id": 724,
+    "gen": 7,
     "name": "Decidueye",
     "types": [
-      "grass",
-      "ghost"
+      "Grass",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -9029,9 +9356,10 @@
   },
   {
     "id": 725,
+    "gen": 7,
     "name": "Litten",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -9056,9 +9384,10 @@
   },
   {
     "id": 726,
+    "gen": 7,
     "name": "Torracat",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -9083,10 +9412,11 @@
   },
   {
     "id": 727,
+    "gen": 7,
     "name": "Incineroar",
     "types": [
-      "fire",
-      "dark"
+      "Fire",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -9111,9 +9441,10 @@
   },
   {
     "id": 728,
+    "gen": 7,
     "name": "Popplio",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -9138,9 +9469,10 @@
   },
   {
     "id": 729,
+    "gen": 7,
     "name": "Brionne",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -9165,10 +9497,11 @@
   },
   {
     "id": 730,
+    "gen": 7,
     "name": "Primarina",
     "types": [
-      "water",
-      "fairy"
+      "Water",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -9193,9 +9526,10 @@
   },
   {
     "id": 736,
+    "gen": 7,
     "name": "Grubbin",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -9220,10 +9554,11 @@
   },
   {
     "id": 737,
-    "name": "Charjabug",
+    "gen": 7,
+    "name": "CharjaBug",
     "types": [
-      "bug",
-      "electric"
+      "Bug",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -9248,10 +9583,11 @@
   },
   {
     "id": 738,
+    "gen": 7,
     "name": "Vikavolt",
     "types": [
-      "bug",
-      "electric"
+      "Bug",
+      "Electric"
     ],
     "defensives": [
       1,
@@ -9276,10 +9612,11 @@
   },
   {
     "id": 742,
+    "gen": 7,
     "name": "Cutiefly",
     "types": [
-      "bug",
-      "fairy"
+      "Bug",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -9304,10 +9641,11 @@
   },
   {
     "id": 743,
+    "gen": 7,
     "name": "Ribombee",
     "types": [
-      "bug",
-      "fairy"
+      "Bug",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -9332,9 +9670,10 @@
   },
   {
     "id": 746,
+    "gen": 7,
     "name": "Wishiwashi",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -9359,10 +9698,11 @@
   },
   {
     "id": 747,
+    "gen": 7,
     "name": "Mareanie",
     "types": [
-      "poison",
-      "water"
+      "Poison",
+      "Water"
     ],
     "defensives": [
       1,
@@ -9387,10 +9727,11 @@
   },
   {
     "id": 748,
+    "gen": 7,
     "name": "Toxapex",
     "types": [
-      "poison",
-      "water"
+      "Poison",
+      "Water"
     ],
     "defensives": [
       1,
@@ -9415,9 +9756,10 @@
   },
   {
     "id": 749,
+    "gen": 7,
     "name": "Mudbray",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -9442,9 +9784,10 @@
   },
   {
     "id": 750,
+    "gen": 7,
     "name": "Mudsdale",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -9469,10 +9812,11 @@
   },
   {
     "id": 751,
+    "gen": 7,
     "name": "Dewpider",
     "types": [
-      "water",
-      "bug"
+      "Water",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -9497,10 +9841,11 @@
   },
   {
     "id": 752,
+    "gen": 7,
     "name": "Araquanid",
     "types": [
-      "water",
-      "bug"
+      "Water",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -9525,10 +9870,11 @@
   },
   {
     "id": 755,
+    "gen": 7,
     "name": "Morelull",
     "types": [
-      "grass",
-      "fairy"
+      "Grass",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -9553,10 +9899,11 @@
   },
   {
     "id": 756,
+    "gen": 7,
     "name": "Shiinotic",
     "types": [
-      "grass",
-      "fairy"
+      "Grass",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -9581,10 +9928,11 @@
   },
   {
     "id": 757,
+    "gen": 7,
     "name": "Salandit",
     "types": [
-      "poison",
-      "fire"
+      "Poison",
+      "Fire"
     ],
     "defensives": [
       1,
@@ -9609,10 +9957,11 @@
   },
   {
     "id": 758,
+    "gen": 7,
     "name": "Salazzle",
     "types": [
-      "poison",
-      "fire"
+      "Poison",
+      "Fire"
     ],
     "defensives": [
       1,
@@ -9637,10 +9986,11 @@
   },
   {
     "id": 759,
+    "gen": 7,
     "name": "Stufful",
     "types": [
-      "normal",
-      "fighting"
+      "Normal",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -9665,10 +10015,11 @@
   },
   {
     "id": 760,
+    "gen": 7,
     "name": "Bewear",
     "types": [
-      "normal",
-      "fighting"
+      "Normal",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -9693,9 +10044,10 @@
   },
   {
     "id": 761,
+    "gen": 7,
     "name": "Bounsweet",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -9720,9 +10072,10 @@
   },
   {
     "id": 762,
+    "gen": 7,
     "name": "Steenee",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -9747,9 +10100,10 @@
   },
   {
     "id": 763,
+    "gen": 7,
     "name": "Tsareena",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -9774,10 +10128,11 @@
   },
   {
     "id": 765,
+    "gen": 7,
     "name": "Oranguru",
     "types": [
-      "normal",
-      "psychic"
+      "Normal",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -9802,9 +10157,10 @@
   },
   {
     "id": 766,
+    "gen": 7,
     "name": "Passimian",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -9829,10 +10185,11 @@
   },
   {
     "id": 767,
+    "gen": 7,
     "name": "Wimpod",
     "types": [
-      "bug",
-      "water"
+      "Bug",
+      "Water"
     ],
     "defensives": [
       1,
@@ -9857,10 +10214,11 @@
   },
   {
     "id": 768,
+    "gen": 7,
     "name": "Golisopod",
     "types": [
-      "bug",
-      "water"
+      "Bug",
+      "Water"
     ],
     "defensives": [
       1,
@@ -9885,9 +10243,10 @@
   },
   {
     "id": 771,
+    "gen": 7,
     "name": "Pyukumuku",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -9912,9 +10271,10 @@
   },
   {
     "id": 772,
+    "gen": 7,
     "name": "Type: Null",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -9939,9 +10299,10 @@
   },
   {
     "id": 773,
+    "gen": 7,
     "name": "Silvally",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -9966,10 +10327,11 @@
   },
   {
     "id": 776,
+    "gen": 7,
     "name": "Turtonator",
     "types": [
-      "fire",
-      "dragon"
+      "Fire",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -9994,10 +10356,11 @@
   },
   {
     "id": 777,
+    "gen": 7,
     "name": "Togedemaru",
     "types": [
-      "electric",
-      "steel"
+      "Electric",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -10022,10 +10385,11 @@
   },
   {
     "id": 778,
+    "gen": 7,
     "name": "Mimikyu",
     "types": [
-      "ghost",
-      "fairy"
+      "Ghost",
+      "Fairy"
     ],
     "defensives": [
       0,
@@ -10050,10 +10414,11 @@
   },
   {
     "id": 780,
+    "gen": 7,
     "name": "Drampa",
     "types": [
-      "normal",
-      "dragon"
+      "Normal",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -10078,10 +10443,11 @@
   },
   {
     "id": 781,
+    "gen": 7,
     "name": "Dhelmise",
     "types": [
-      "ghost",
-      "grass"
+      "Ghost",
+      "Grass"
     ],
     "defensives": [
       0,
@@ -10106,9 +10472,10 @@
   },
   {
     "id": 782,
+    "gen": 7,
     "name": "Jangmo-o",
     "types": [
-      "dragon"
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -10133,10 +10500,11 @@
   },
   {
     "id": 783,
+    "gen": 7,
     "name": "Hakamo-o",
     "types": [
-      "dragon",
-      "fighting"
+      "Dragon",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -10161,10 +10529,11 @@
   },
   {
     "id": 784,
+    "gen": 7,
     "name": "Kommo-o",
     "types": [
-      "dragon",
-      "fighting"
+      "Dragon",
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -10189,9 +10558,10 @@
   },
   {
     "id": 789,
+    "gen": 7,
     "name": "Cosmog",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -10216,9 +10586,10 @@
   },
   {
     "id": 790,
+    "gen": 7,
     "name": "Cosmoem",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -10243,10 +10614,11 @@
   },
   {
     "id": 791,
+    "gen": 7,
     "name": "Solgaleo",
     "types": [
-      "psychic",
-      "steel"
+      "Psychic",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -10271,10 +10643,11 @@
   },
   {
     "id": 792,
+    "gen": 7,
     "name": "Lunala",
     "types": [
-      "psychic",
-      "ghost"
+      "Psychic",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -10299,9 +10672,10 @@
   },
   {
     "id": 800,
+    "gen": 7,
     "name": "Necrozma",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -10326,10 +10700,11 @@
   },
   {
     "id": 802,
+    "gen": 7,
     "name": "Marshadow",
     "types": [
-      "fighting",
-      "ghost"
+      "Fighting",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -10354,9 +10729,10 @@
   },
   {
     "id": 807,
+    "gen": 7,
     "name": "Zeraora",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -10381,9 +10757,10 @@
   },
   {
     "id": 808,
+    "gen": 7,
     "name": "Meltan",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -10408,9 +10785,10 @@
   },
   {
     "id": 809,
+    "gen": 7,
     "name": "Melmetal",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -10435,9 +10813,10 @@
   },
   {
     "id": 810,
+    "gen": 8,
     "name": "Grookey",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -10462,9 +10841,10 @@
   },
   {
     "id": 811,
+    "gen": 8,
     "name": "Thwackey",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -10489,9 +10869,10 @@
   },
   {
     "id": 812,
+    "gen": 8,
     "name": "Rillaboom",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -10516,9 +10897,10 @@
   },
   {
     "id": 813,
+    "gen": 8,
     "name": "Scorbunny",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -10543,9 +10925,10 @@
   },
   {
     "id": 814,
+    "gen": 8,
     "name": "Raboot",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -10570,9 +10953,10 @@
   },
   {
     "id": 815,
+    "gen": 8,
     "name": "Cinderace",
     "types": [
-      "fire"
+      "Fire"
     ],
     "defensives": [
       1,
@@ -10597,9 +10981,10 @@
   },
   {
     "id": 816,
+    "gen": 8,
     "name": "Sobble",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -10624,9 +11009,10 @@
   },
   {
     "id": 817,
+    "gen": 8,
     "name": "Drizzile",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -10651,9 +11037,10 @@
   },
   {
     "id": 818,
+    "gen": 8,
     "name": "Inteleon",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -10678,9 +11065,10 @@
   },
   {
     "id": 819,
+    "gen": 8,
     "name": "Skwovet",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -10705,9 +11093,10 @@
   },
   {
     "id": 820,
+    "gen": 8,
     "name": "Greedent",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -10732,9 +11121,10 @@
   },
   {
     "id": 821,
+    "gen": 8,
     "name": "Rookidee",
     "types": [
-      "flying"
+      "Flying"
     ],
     "defensives": [
       1,
@@ -10759,9 +11149,10 @@
   },
   {
     "id": 822,
+    "gen": 8,
     "name": "Corvisquire",
     "types": [
-      "flying"
+      "Flying"
     ],
     "defensives": [
       1,
@@ -10786,10 +11177,11 @@
   },
   {
     "id": 823,
+    "gen": 8,
     "name": "Corviknight",
     "types": [
-      "flying",
-      "steel"
+      "Flying",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -10814,9 +11206,10 @@
   },
   {
     "id": 824,
-    "name": "Blipbug",
+    "gen": 8,
+    "name": "BlipBug",
     "types": [
-      "bug"
+      "Bug"
     ],
     "defensives": [
       1,
@@ -10841,10 +11234,11 @@
   },
   {
     "id": 825,
+    "gen": 8,
     "name": "Dottler",
     "types": [
-      "bug",
-      "psychic"
+      "Bug",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -10869,10 +11263,11 @@
   },
   {
     "id": 826,
+    "gen": 8,
     "name": "Orbeetle",
     "types": [
-      "bug",
-      "psychic"
+      "Bug",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -10897,9 +11292,10 @@
   },
   {
     "id": 827,
+    "gen": 8,
     "name": "Nickit",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -10924,9 +11320,10 @@
   },
   {
     "id": 828,
+    "gen": 8,
     "name": "Thievul",
     "types": [
-      "dark"
+      "Dark"
     ],
     "defensives": [
       1,
@@ -10951,9 +11348,10 @@
   },
   {
     "id": 829,
+    "gen": 8,
     "name": "Gossifleur",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -10978,9 +11376,10 @@
   },
   {
     "id": 830,
+    "gen": 8,
     "name": "Eldegoss",
     "types": [
-      "grass"
+      "Grass"
     ],
     "defensives": [
       1,
@@ -11005,9 +11404,10 @@
   },
   {
     "id": 831,
+    "gen": 8,
     "name": "Wooloo",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -11032,9 +11432,10 @@
   },
   {
     "id": 832,
+    "gen": 8,
     "name": "Dubwool",
     "types": [
-      "normal"
+      "Normal"
     ],
     "defensives": [
       1,
@@ -11059,9 +11460,10 @@
   },
   {
     "id": 833,
+    "gen": 8,
     "name": "Chewtle",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -11086,10 +11488,11 @@
   },
   {
     "id": 834,
+    "gen": 8,
     "name": "Drednaw",
     "types": [
-      "water",
-      "rock"
+      "Water",
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -11114,9 +11517,10 @@
   },
   {
     "id": 835,
+    "gen": 8,
     "name": "Yamper",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -11141,9 +11545,10 @@
   },
   {
     "id": 836,
+    "gen": 8,
     "name": "Boltund",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -11168,9 +11573,10 @@
   },
   {
     "id": 837,
+    "gen": 8,
     "name": "Rolycoly",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -11195,10 +11601,11 @@
   },
   {
     "id": 838,
+    "gen": 8,
     "name": "Carkol",
     "types": [
-      "rock",
-      "fire"
+      "Rock",
+      "Fire"
     ],
     "defensives": [
       0.5,
@@ -11223,10 +11630,11 @@
   },
   {
     "id": 839,
+    "gen": 8,
     "name": "Coalossal",
     "types": [
-      "rock",
-      "fire"
+      "Rock",
+      "Fire"
     ],
     "defensives": [
       0.5,
@@ -11251,10 +11659,11 @@
   },
   {
     "id": 840,
+    "gen": 8,
     "name": "Applin",
     "types": [
-      "grass",
-      "dragon"
+      "Grass",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -11279,10 +11688,11 @@
   },
   {
     "id": 841,
+    "gen": 8,
     "name": "Flapple",
     "types": [
-      "grass",
-      "dragon"
+      "Grass",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -11307,10 +11717,11 @@
   },
   {
     "id": 842,
+    "gen": 8,
     "name": "Appletun",
     "types": [
-      "grass",
-      "dragon"
+      "Grass",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -11335,9 +11746,10 @@
   },
   {
     "id": 843,
+    "gen": 8,
     "name": "Silicobra",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -11362,9 +11774,10 @@
   },
   {
     "id": 844,
+    "gen": 8,
     "name": "Sandaconda",
     "types": [
-      "ground"
+      "Ground"
     ],
     "defensives": [
       1,
@@ -11389,10 +11802,11 @@
   },
   {
     "id": 845,
+    "gen": 8,
     "name": "Cramorant",
     "types": [
-      "flying",
-      "water"
+      "Flying",
+      "Water"
     ],
     "defensives": [
       1,
@@ -11417,9 +11831,10 @@
   },
   {
     "id": 846,
+    "gen": 8,
     "name": "Arrokuda",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -11444,9 +11859,10 @@
   },
   {
     "id": 847,
+    "gen": 8,
     "name": "Barraskewda",
     "types": [
-      "water"
+      "Water"
     ],
     "defensives": [
       1,
@@ -11471,10 +11887,11 @@
   },
   {
     "id": 848,
+    "gen": 8,
     "name": "Toxel",
     "types": [
-      "electric",
-      "poison"
+      "Electric",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -11499,10 +11916,11 @@
   },
   {
     "id": 849,
+    "gen": 8,
     "name": "Toxtricity",
     "types": [
-      "electric",
-      "poison"
+      "Electric",
+      "Poison"
     ],
     "defensives": [
       1,
@@ -11527,10 +11945,11 @@
   },
   {
     "id": 850,
+    "gen": 8,
     "name": "Sizzlipede",
     "types": [
-      "fire",
-      "bug"
+      "Fire",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -11555,10 +11974,11 @@
   },
   {
     "id": 851,
+    "gen": 8,
     "name": "Centiskorch",
     "types": [
-      "fire",
-      "bug"
+      "Fire",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -11583,9 +12003,10 @@
   },
   {
     "id": 852,
+    "gen": 8,
     "name": "Clobbopus",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -11610,9 +12031,10 @@
   },
   {
     "id": 853,
+    "gen": 8,
     "name": "Grapploct",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -11637,9 +12059,10 @@
   },
   {
     "id": 854,
+    "gen": 8,
     "name": "Sinistea",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -11664,9 +12087,10 @@
   },
   {
     "id": 855,
+    "gen": 8,
     "name": "Polteageist",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -11691,9 +12115,10 @@
   },
   {
     "id": 856,
+    "gen": 8,
     "name": "Hatenna",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -11718,9 +12143,10 @@
   },
   {
     "id": 857,
+    "gen": 8,
     "name": "Hattrem",
     "types": [
-      "psychic"
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -11745,10 +12171,11 @@
   },
   {
     "id": 858,
+    "gen": 8,
     "name": "Hatterene",
     "types": [
-      "psychic",
-      "fairy"
+      "Psychic",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -11773,10 +12200,11 @@
   },
   {
     "id": 859,
+    "gen": 8,
     "name": "Impidimp",
     "types": [
-      "dark",
-      "fairy"
+      "Dark",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -11801,10 +12229,11 @@
   },
   {
     "id": 860,
+    "gen": 8,
     "name": "Morgrem",
     "types": [
-      "dark",
-      "fairy"
+      "Dark",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -11829,10 +12258,11 @@
   },
   {
     "id": 861,
+    "gen": 8,
     "name": "Grimmsnarl",
     "types": [
-      "dark",
-      "fairy"
+      "Dark",
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -11857,10 +12287,11 @@
   },
   {
     "id": 862,
+    "gen": 8,
     "name": "Obstagoon",
     "types": [
-      "dark",
-      "normal"
+      "Dark",
+      "Normal"
     ],
     "defensives": [
       1,
@@ -11885,9 +12316,10 @@
   },
   {
     "id": 863,
+    "gen": 8,
     "name": "Perrserker",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -11912,9 +12344,10 @@
   },
   {
     "id": 864,
+    "gen": 8,
     "name": "Cursola",
     "types": [
-      "ghost"
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -11939,9 +12372,10 @@
   },
   {
     "id": 865,
+    "gen": 8,
     "name": "Sirfetch'd",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -11966,10 +12400,11 @@
   },
   {
     "id": 866,
+    "gen": 8,
     "name": "Mr. Rime",
     "types": [
-      "ice",
-      "psychic"
+      "Ice",
+      "Psychic"
     ],
     "defensives": [
       1,
@@ -11994,10 +12429,11 @@
   },
   {
     "id": 867,
+    "gen": 8,
     "name": "Runerigus",
     "types": [
-      "ground",
-      "ghost"
+      "Ground",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -12022,9 +12458,10 @@
   },
   {
     "id": 868,
+    "gen": 8,
     "name": "Milcery",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -12049,9 +12486,10 @@
   },
   {
     "id": 869,
+    "gen": 8,
     "name": "Alcremie",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -12076,9 +12514,10 @@
   },
   {
     "id": 870,
+    "gen": 8,
     "name": "Falinks",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -12103,9 +12542,10 @@
   },
   {
     "id": 871,
+    "gen": 8,
     "name": "Pincurchin",
     "types": [
-      "electric"
+      "Electric"
     ],
     "defensives": [
       1,
@@ -12130,10 +12570,11 @@
   },
   {
     "id": 872,
+    "gen": 8,
     "name": "Snom",
     "types": [
-      "ice",
-      "bug"
+      "Ice",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -12158,10 +12599,11 @@
   },
   {
     "id": 873,
+    "gen": 8,
     "name": "Frosmoth",
     "types": [
-      "ice",
-      "bug"
+      "Ice",
+      "Bug"
     ],
     "defensives": [
       1,
@@ -12186,9 +12628,10 @@
   },
   {
     "id": 874,
+    "gen": 8,
     "name": "Stonjourner",
     "types": [
-      "rock"
+      "Rock"
     ],
     "defensives": [
       0.5,
@@ -12213,9 +12656,10 @@
   },
   {
     "id": 875,
+    "gen": 8,
     "name": "Eiscue",
     "types": [
-      "ice"
+      "Ice"
     ],
     "defensives": [
       1,
@@ -12240,10 +12684,11 @@
   },
   {
     "id": 876,
+    "gen": 8,
     "name": "Indeedee",
     "types": [
-      "psychic",
-      "normal"
+      "Psychic",
+      "Normal"
     ],
     "defensives": [
       1,
@@ -12268,10 +12713,11 @@
   },
   {
     "id": 877,
+    "gen": 8,
     "name": "Morpeko",
     "types": [
-      "electric",
-      "dark"
+      "Electric",
+      "Dark"
     ],
     "defensives": [
       1,
@@ -12296,9 +12742,10 @@
   },
   {
     "id": 878,
+    "gen": 8,
     "name": "Cufant",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -12323,9 +12770,10 @@
   },
   {
     "id": 879,
+    "gen": 8,
     "name": "Copperajah",
     "types": [
-      "steel"
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -12350,10 +12798,11 @@
   },
   {
     "id": 880,
+    "gen": 8,
     "name": "Dracozolt",
     "types": [
-      "electric",
-      "dragon"
+      "Electric",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -12378,10 +12827,11 @@
   },
   {
     "id": 881,
+    "gen": 8,
     "name": "Arctozolt",
     "types": [
-      "electric",
-      "ice"
+      "Electric",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -12406,10 +12856,11 @@
   },
   {
     "id": 882,
+    "gen": 8,
     "name": "Dracovish",
     "types": [
-      "water",
-      "dragon"
+      "Water",
+      "Dragon"
     ],
     "defensives": [
       1,
@@ -12434,10 +12885,11 @@
   },
   {
     "id": 883,
+    "gen": 8,
     "name": "Arctovish",
     "types": [
-      "water",
-      "ice"
+      "Water",
+      "Ice"
     ],
     "defensives": [
       1,
@@ -12462,10 +12914,11 @@
   },
   {
     "id": 884,
+    "gen": 8,
     "name": "Duraludon",
     "types": [
-      "steel",
-      "dragon"
+      "Steel",
+      "Dragon"
     ],
     "defensives": [
       0.5,
@@ -12490,10 +12943,11 @@
   },
   {
     "id": 885,
+    "gen": 8,
     "name": "Dreepy",
     "types": [
-      "dragon",
-      "ghost"
+      "Dragon",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -12518,10 +12972,11 @@
   },
   {
     "id": 886,
+    "gen": 8,
     "name": "Drakloak",
     "types": [
-      "dragon",
-      "ghost"
+      "Dragon",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -12546,10 +13001,11 @@
   },
   {
     "id": 887,
+    "gen": 8,
     "name": "Dragapult",
     "types": [
-      "dragon",
-      "ghost"
+      "Dragon",
+      "Ghost"
     ],
     "defensives": [
       0,
@@ -12574,9 +13030,10 @@
   },
   {
     "id": 888,
+    "gen": 8,
     "name": "Zacian",
     "types": [
-      "fairy"
+      "Fairy"
     ],
     "defensives": [
       1,
@@ -12601,11 +13058,12 @@
   },
   {
     "id": 888,
+    "gen": 8,
     "name": "Zacian-Sword",
     "form": "Sword",
     "types": [
-      "fairy",
-      "steel"
+      "Fairy",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -12630,9 +13088,10 @@
   },
   {
     "id": 889,
+    "gen": 8,
     "name": "Zamazenta",
     "types": [
-      "fighting"
+      "Fighting"
     ],
     "defensives": [
       1,
@@ -12657,11 +13116,12 @@
   },
   {
     "id": 889,
+    "gen": 8,
     "name": "Zamazenta-Shield",
     "form": "Shield",
     "types": [
-      "fighting",
-      "steel"
+      "Fighting",
+      "Steel"
     ],
     "defensives": [
       0.5,
@@ -12686,10 +13146,11 @@
   },
   {
     "id": 890,
+    "gen": 8,
     "name": "Eternatus",
     "types": [
-      "poison",
-      "dragon"
+      "Poison",
+      "Dragon"
     ],
     "defensives": [
       1,

@@ -1,0 +1,13 @@
+.header {
+  background: #0277bd;
+  margin-bottom: 1.5rem;
+  padding: 1.45rem 1.0875rem;
+
+  &_text {
+    margin: 0;
+  }
+  &_link {
+    color: white;
+    text-decoration: none;
+  }
+}
