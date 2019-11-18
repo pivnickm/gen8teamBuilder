@@ -1,7 +1,9 @@
 .header {
   background: #0277bd;
-  margin-bottom: 1.5rem;
   padding: 1.45rem 1.0875rem;
+  @media (min-width: 640px) {
+    margin-bottom: 1.5rem;
+  }
 
   &_text {
     margin: 0;

@@ -7,17 +7,10 @@ import TypeIndicator from "../typeIndicator";
 
 import "./_index.scss";
 
-const DisplayHeader = ({
-  className,
-  selectedPokemon,
-  handleItemClick,
-  ...displayHeaderProps
-}) => {
-  const outputClassName = cn(className, "displayHeader");
-
+const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
   return (
-    <React.Fragment>
-      <div className={outputClassName} {...displayHeaderProps}>
+    <div className="displayHeader">
+      <div className="displayHeader_inner">
         {selectedPokemon
           .slice(0, selectedPokemon.length / 2)
           .map((pokemon, index) => {
@@ -50,7 +43,7 @@ const DisplayHeader = ({
             );
           })}
       </div>
-      <div className={outputClassName} {...displayHeaderProps}>
+      <div className="displayHeader_inner">
         {selectedPokemon
           .slice(selectedPokemon.length / 2, selectedPokemon.length)
           .map((pokemon, index) => {
@@ -83,7 +76,7 @@ const DisplayHeader = ({
             );
           })}
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import cn from "classnames";
 
 import "./_index.scss";
+import { withPrefix } from "gatsby";
 
 const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
   const outputClassName = cn(className, "statTable");
@@ -56,7 +57,11 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
           <tr className="statTable_col">
             {types.slice(0, types.length / 2).map(type => (
               <td className={`statTable_cell ${type.toLowerCase()}0`}>
-                {type}
+                <span className="statTable_typeText">{type}</span>
+                <img
+                  className="statTable_typeImage"
+                  src={withPrefix(`/types/Icon_${type}.png`)}
+                />
               </td>
             ))}
           </tr>
@@ -79,7 +84,11 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
           <tr className="statTable_col">
             {types.slice(types.length / 2, types.length).map(type => (
               <td className={`statTable_cell ${type.toLowerCase()}0`}>
-                {type}
+                <span className="statTable_typeText">{type}</span>
+                <img
+                  className="statTable_typeImage"
+                  src={withPrefix(`/types/Icon_${type}.png`)}
+                />
               </td>
             ))}
           </tr>

@@ -6,11 +6,11 @@ import "./_index.scss";
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <h1 className="header_text">
+    <h3 className="header_text">
       <Link className="header_link" to="/">
         {siteTitle}
       </Link>
-    </h1>
+    </h3>
   </header>
 );
 
