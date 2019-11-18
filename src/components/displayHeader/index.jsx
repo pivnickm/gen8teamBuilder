@@ -35,9 +35,13 @@ const DisplayHeader = ({
               >
                 <img
                   className={"displayHeader_image"}
-                  src={`/pokemon/${
-                    pokemon.form ? `${pokemon.id}-${pokemon.form}` : pokemon.id
-                  }.png`}
+                  src={withPrefix(
+                    `/pokemon/${
+                      pokemon.form
+                        ? `${pokemon.id}-${pokemon.form}`
+                        : pokemon.id
+                    }.png`
+                  )}
                   alt={pokemon.name}
                 />
                 <span>{pokemon.name}</span>
