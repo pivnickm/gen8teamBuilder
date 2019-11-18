@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gen8teamBuilder",
   siteMetadata: {
     title: `Pokemon Sword / Shield Team Builder`,
     description: `Pick a team of Pokemon for Sword and Shield and see weaknesses and immunties`,
@@ -22,8 +23,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#0277bd`,
+        theme_color: `#0277bd`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
       }

@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import cn from "classnames";
+import { withPrefix } from "gatsby";
 
 import * as colors from "../../../data/colors";
 import "./_index.scss";
@@ -26,7 +27,7 @@ const ListItem = ({ className, onClick, pokemon, ...listItemProps }) => {
     >
       <img
         className={imageClassName}
-        src={`/pokemon/${imagePath}.png`}
+        src={withPrefix(`/pokemon/${imagePath}.png`)}
         alt={pokemon.name}
       />
     </li>

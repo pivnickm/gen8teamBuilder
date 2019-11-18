@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import cn from "classnames";
+import { withPrefix } from "gatsby";
 
 import TypeIndicator from "../typeIndicator";
 
@@ -63,9 +64,13 @@ const DisplayHeader = ({
               >
                 <img
                   className={"displayHeader_image"}
-                  src={`/pokemon/${
-                    pokemon.form ? `${pokemon.id}-${pokemon.form}` : pokemon.id
-                  }.png`}
+                  src={withPrefix(
+                    `/pokemon/${
+                      pokemon.form
+                        ? `${pokemon.id}-${pokemon.form}`
+                        : pokemon.id
+                    }.png`
+                  )}
                   alt={pokemon.name}
                 />
                 <span>{pokemon.name}</span>

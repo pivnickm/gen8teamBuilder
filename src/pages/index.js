@@ -7,7 +7,7 @@ import DisplayHeader from "../components/displayHeader";
 import StatTable from "../components/statTable";
 import SEO from "../components/seo";
 
-import data from "../data/pokedex.json";
+import data from "../data/galarPokedex.json";
 
 const IndexPage = () => {
   const [filteredData, setFilteredData] = useState(data);

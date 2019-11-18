@@ -47,12 +47,12 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
   return (
     <React.Fragment>
       {[
-        { name: "Immunities", data: immunities },
-        { name: "Super Effective", data: superEffective },
-        { name: "Resistances", data: resistances }
-      ].map(item => (
+        { name: "Team Immunities", data: immunities },
+        { name: "Team Weaknesses", data: superEffective },
+        { name: "Team Resistances", data: resistances }
+      ].map(defensiveMetric => (
         <table className={outputClassName} {...statTableProps}>
-          <th colspan="18">{item.name}</th>
+          <th colspan="18">{defensiveMetric.name}</th>
           <tr className="statTable_col">
             {types.slice(0, types.length / 2).map(type => (
               <td className={`statTable_cell ${type.toLowerCase()}0`}>
@@ -61,9 +61,20 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
             ))}
           </tr>
           <tr className="statTable_col">
-            {item.data.slice(0, item.data.length / 2).map(type => (
-              <td className="statTable_cell">{type}</td>
-            ))}
+            {defensiveMetric.data
+              .slice(0, defensiveMetric.data.length / 2)
+              .map(count => (
+                <td className="statTable_cell">
+                  <span
+                    className={cn({
+                      ["statTable_cell__caution"]: count > 2,
+                      ["statTable_cell__warning"]: count > 3
+                    })}
+                  >
+                    {count}
+                  </span>
+                </td>
+              ))}
           </tr>
           <tr className="statTable_col">
             {types.slice(types.length / 2, types.length).map(type => (
@@ -73,10 +84,22 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
             ))}
           </tr>
           <tr>
-            {item.data
-              .slice(item.data.length / 2, item.data.length)
-              .map(type => (
-                <td className="statTable_cell">{type}</td>
+            {defensiveMetric.data
+              .slice(
+                defensiveMetric.data.length / 2,
+                defensiveMetric.data.length
+              )
+              .map(count => (
+                <td className="statTable_cell">
+                  <span
+                    className={cn({
+                      ["statTable_cell__caution"]: count > 2,
+                      ["statTable_cell__warning"]: count > 3
+                    })}
+                  >
+                    {count}
+                  </span>
+                </td>
               ))}
           </tr>
         </table>
