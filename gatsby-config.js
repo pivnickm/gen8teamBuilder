@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Sword Shield Team Builder`,
+        short_name: `SwShTeamBuilder`,
         start_url: `/`,
         background_color: `#0277bd`,
         theme_color: `#0277bd`,

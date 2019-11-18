@@ -21,18 +21,23 @@
   }
   &_cell {
     text-align: center;
-    // width: calc(100% / 9);
     &__caution {
       background: #ea9138;
       color: white;
       font-weight: bold;
-      padding: 0.5rem;
+      padding: 0.25rem;
+      @media (min-width: 640px) {
+        padding: 0.5rem;
+      }
     }
     &__warning {
       background: #a31d07;
       color: white;
       font-weight: bold;
-      padding: 0.5rem;
+      padding: 0.25rem;
+      @media (min-width: 640px) {
+        padding: 0.5rem;
+      }
     }
   }
 }

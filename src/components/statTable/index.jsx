@@ -61,6 +61,7 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
                 <img
                   className="statTable_typeImage"
                   src={withPrefix(`/types/Icon_${type}.png`)}
+                  alt={`Icon_${type}`}
                 />
               </td>
             ))}
@@ -88,6 +89,7 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
                 <img
                   className="statTable_typeImage"
                   src={withPrefix(`/types/Icon_${type}.png`)}
+                  alt={`Icon_${type}`}
                 />
               </td>
             ))}

@@ -27,7 +27,7 @@ const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
                 key={index}
               >
                 <img
-                  className={"displayHeader_image"}
+                  className="displayHeader_image"
                   src={withPrefix(
                     `/pokemon/${
                       pokemon.form
@@ -37,7 +37,7 @@ const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
                   )}
                   alt={pokemon.name}
                 />
-                <span>{pokemon.name}</span>
+                <span className="displayHeader_text">{pokemon.name}</span>
                 <TypeIndicator types={pokemon.types} />
               </div>
             );
@@ -70,7 +70,7 @@ const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
                   )}
                   alt={pokemon.name}
                 />
-                <span>{pokemon.name}</span>
+                <span className="displayHeader_text">{pokemon.name}</span>
                 <TypeIndicator types={pokemon.types} />
               </div>
             );
