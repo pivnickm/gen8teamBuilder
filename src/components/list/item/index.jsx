@@ -6,7 +6,7 @@ import { withPrefix } from "gatsby";
 import * as colors from "../../../data/colors";
 import "./_index.scss";
 
-const ListItem = ({ className, onClick, pokemon, ...listItemProps }) => {
+const ListItem = ({ className, onClick, pokemon }) => {
   const outputClassName = cn(
     className,
     "listItem",
@@ -23,7 +23,6 @@ const ListItem = ({ className, onClick, pokemon, ...listItemProps }) => {
       onClick={() => {
         onClick(pokemon);
       }}
-      {...listItemProps}
     >
       <img
         className={imageClassName}

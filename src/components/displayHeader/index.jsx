@@ -7,7 +7,7 @@ import TypeIndicator from "../typeIndicator";
 
 import "./_index.scss";
 
-const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
+const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
   return (
     <div className="displayHeader">
       <div className="displayHeader_inner">
@@ -55,7 +55,7 @@ const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
               <div
                 className="displayHeader_item displayHeader_pokeball"
                 onClick={() => {
-                  handleItemClick(index);
+                  handleItemClick(index + 3);
                 }}
                 key={index}
               >
@@ -76,6 +76,7 @@ const DisplayHeader = ({ selectedPokemon, handleItemClick }) => {
             );
           })}
       </div>
+      {children}
     </div>
   );
 };
