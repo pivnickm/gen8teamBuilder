@@ -3,9 +3,9 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 0.25rem;
-  @media (min-width: 640px) {
-    border-spacing: 0 1rem;
-  }
+  // @media (min-width: 640px) {
+  //   border-spacing: 0 1rem;
+  // }
   &_typeText {
     display: none;
     @media (min-width: 640px) {
@@ -26,18 +26,18 @@
       color: white;
       font-weight: bold;
       padding: 0.25rem;
-      @media (min-width: 640px) {
-        padding: 0.5rem;
-      }
+      // @media (min-width: 640px) {
+      //   padding: 0.5rem;
+      // }
     }
     &__warning {
       background: #a31d07;
       color: white;
       font-weight: bold;
       padding: 0.25rem;
-      @media (min-width: 640px) {
-        padding: 0.5rem;
-      }
+      // @media (min-width: 640px) {
+      //   padding: 0.5rem;
+      // }
     }
   }
 }

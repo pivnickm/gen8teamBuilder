@@ -9,6 +9,7 @@ import SEO from "../components/seo";
 import data from "../data/galarPokedex.json";
 
 const IndexPage = ({ location }) => {
+  const [term, setSearchTerm] = useState("");
   const [counter, setCounter] = useState(0);
   const [filteredData, setFilteredData] = useState(data);
   const [selectedPokemon, setSelectedPokemon] = useState([
@@ -55,8 +56,13 @@ const IndexPage = ({ location }) => {
       if (counter < 6) {
         newArr[counter] = pokemonToAdd;
       } else {
-        newArr.shift();
-        newArr[5] = pokemonToAdd;
+        if (newArr.some(pokemon => pokemon === null)) {
+          let nearestIndex = newArr.findIndex(pokemon => pokemon === null);
+          newArr[nearestIndex] = pokemonToAdd;
+        } else {
+          newArr.shift();
+          newArr[5] = pokemonToAdd;
+        }
       }
 
       setNavigation(
@@ -88,6 +94,7 @@ const IndexPage = ({ location }) => {
       ...selectedPokemon.slice(indexToRemove + 1, selectedPokemon.length),
       null
     ];
+    console.log(newArr); // eslint-disable-line
     setNavigation(
       newArr.reduce((acc, val) => {
         if (val !== null) {
@@ -99,22 +106,24 @@ const IndexPage = ({ location }) => {
     setSelectedPokemon(newArr);
   };
 
-  const handleFilterGen = gen => {
-    console.log(gen); // eslint-disable-line
-    const index = filteredData.findIndex(gen);
-    if (index > -1) {
-      setFilteredData([
-        filteredData.slice(0, index),
-        filteredData.slice(index + 1, filteredData.length)
-      ]);
-    } else {
-      filteredData.push();
-    }
-  };
+  // const handleFilterGen = gen => {
+  //   console.log(gen); // eslint-disable-line
+  //   const index = filteredData.findIndex(gen);
+  //   if (index > -1) {
+  //     setFilteredData([
+  //       filteredData.slice(0, index),
+  //       filteredData.slice(index + 1, filteredData.length)
+  //     ]);
+  //   } else {
+  //     filteredData.push();
+  //   }
+  // };
 
-  const filteredList = filteredData.filter(
-    pokemon => !selectedPokemon.includes(pokemon)
-  );
+  const filteredList = filteredData
+    .filter(pokemon => !selectedPokemon.includes(pokemon))
+    .filter(pokemon =>
+      pokemon.name.toLowerCase().startsWith(term.toLowerCase())
+    );
   const allDefensiveStats = selectedPokemon.map(pokemon => {
     if (pokemon !== null) {
       return pokemon.defensives;
@@ -142,7 +151,7 @@ const IndexPage = ({ location }) => {
     }
   });
   return (
-    <Layout>
+    <Layout onChange={event => setSearchTerm(event.target.value)}>
       <SEO title="Pokemon Sword and Shield Team Builder" />
 
       <div>
@@ -151,11 +160,11 @@ const IndexPage = ({ location }) => {
           handleItemClick={handleRemovePokemon}
         >
           <div>
-            {generations.map((gen, index) => (
+            {/* {generations.map((gen, index) => (
               <button onClick={() => handleFilterGen(gen)}>
                 {gen === 0 ? "All" : `Gen ${gen}`}
               </button>
-            ))}
+            ))} */}
           </div>
         </DisplayHeader>
         <StatTable allDefensiveStats={allDefensiveStats} />
