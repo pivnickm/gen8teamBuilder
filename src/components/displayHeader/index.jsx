@@ -15,7 +15,10 @@ const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
           .slice(0, selectedPokemon.length / 2)
           .map((pokemon, index) => {
             return pokemon === null ? (
-              <div className="displayHeader_item displayHeader_pokeball">
+              <div
+                className="displayHeader_item displayHeader_pokeball"
+                key={index}
+              >
                 <hr className="displayHeader_pokeballCenter" />
               </div>
             ) : (
@@ -48,7 +51,10 @@ const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
           .slice(selectedPokemon.length / 2, selectedPokemon.length)
           .map((pokemon, index) => {
             return pokemon === null ? (
-              <div className="displayHeader_item displayHeader_pokeball">
+              <div
+                className="displayHeader_item displayHeader_pokeball"
+                key={index}
+              >
                 <hr className="displayHeader_pokeballCenter" />
               </div>
             ) : (

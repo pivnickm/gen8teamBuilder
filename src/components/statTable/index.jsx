@@ -52,67 +52,83 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
         { name: "Team Weaknesses", data: superEffective },
         { name: "Team Resistances", data: resistances }
       ].map(defensiveMetric => (
-        <table className={outputClassName} {...statTableProps}>
-          <th colspan="18">{defensiveMetric.name}</th>
-          <tr className="statTable_col">
-            {types.slice(0, types.length / 2).map(type => (
-              <td className={`statTable_cell ${type.toLowerCase()}0`}>
-                <span className="statTable_typeText">{type}</span>
-                <img
-                  className="statTable_typeImage"
-                  src={withPrefix(`/types/Icon_${type}.png`)}
-                  alt={`Icon_${type}`}
-                />
-              </td>
-            ))}
-          </tr>
-          <tr className="statTable_col">
-            {defensiveMetric.data
-              .slice(0, defensiveMetric.data.length / 2)
-              .map(count => (
-                <td className="statTable_cell">
-                  <span
-                    className={cn({
-                      ["statTable_cell__caution"]: count > 2,
-                      ["statTable_cell__warning"]: count > 3
-                    })}
-                  >
-                    {count}
-                  </span>
+        <table
+          className={outputClassName}
+          key={defensiveMetric.name}
+          {...statTableProps}
+        >
+          <thead>
+            <tr>
+              <th colSpan="18">{defensiveMetric.name}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="statTable_col">
+              {types.slice(0, types.length / 2).map(type => (
+                <td
+                  className={`statTable_cell ${type.toLowerCase()}0`}
+                  key={type}
+                >
+                  <span className="statTable_typeText">{type}</span>
+                  <img
+                    className="statTable_typeImage"
+                    src={withPrefix(`/types/Icon_${type}.png`)}
+                    alt={`Icon_${type}`}
+                  />
                 </td>
               ))}
-          </tr>
-          <tr className="statTable_col">
-            {types.slice(types.length / 2, types.length).map(type => (
-              <td className={`statTable_cell ${type.toLowerCase()}0`}>
-                <span className="statTable_typeText">{type}</span>
-                <img
-                  className="statTable_typeImage"
-                  src={withPrefix(`/types/Icon_${type}.png`)}
-                  alt={`Icon_${type}`}
-                />
-              </td>
-            ))}
-          </tr>
-          <tr>
-            {defensiveMetric.data
-              .slice(
-                defensiveMetric.data.length / 2,
-                defensiveMetric.data.length
-              )
-              .map(count => (
-                <td className="statTable_cell">
-                  <span
-                    className={cn({
-                      ["statTable_cell__caution"]: count > 2,
-                      ["statTable_cell__warning"]: count > 3
-                    })}
-                  >
-                    {count}
-                  </span>
+            </tr>
+            <tr className="statTable_col">
+              {defensiveMetric.data
+                .slice(0, defensiveMetric.data.length / 2)
+                .map((count, index) => (
+                  <td className="statTable_cell" key={index}>
+                    <span
+                      className={cn({
+                        ["statTable_cell__caution"]: count > 2,
+                        ["statTable_cell__warning"]: count > 3
+                      })}
+                    >
+                      {count}
+                    </span>
+                  </td>
+                ))}
+            </tr>
+            <tr className="statTable_col">
+              {types.slice(types.length / 2, types.length).map(type => (
+                <td
+                  className={`statTable_cell ${type.toLowerCase()}0`}
+                  key={type}
+                >
+                  <span className="statTable_typeText">{type}</span>
+                  <img
+                    className="statTable_typeImage"
+                    src={withPrefix(`/types/Icon_${type}.png`)}
+                    alt={`Icon_${type}`}
+                  />
                 </td>
               ))}
-          </tr>
+            </tr>
+            <tr>
+              {defensiveMetric.data
+                .slice(
+                  defensiveMetric.data.length / 2,
+                  defensiveMetric.data.length
+                )
+                .map((count, index) => (
+                  <td className="statTable_cell" key={index}>
+                    <span
+                      className={cn({
+                        ["statTable_cell__caution"]: count > 2,
+                        ["statTable_cell__warning"]: count > 3
+                      })}
+                    >
+                      {count}
+                    </span>
+                  </td>
+                ))}
+            </tr>
+          </tbody>
         </table>
       ))}
     </React.Fragment>

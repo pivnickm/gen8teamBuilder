@@ -20,6 +20,7 @@ const ListItem = ({ className, onClick, pokemon }) => {
   return (
     <li
       className={outputClassName}
+      key={imagePath}
       onClick={() => {
         onClick(pokemon);
       }}
