@@ -27,11 +27,12 @@ const IndexPage = ({ location }) => {
       const seedData = location.hash.replace("#", "").split(",");
       handleSelectPokemon(
         seedData
-          .map(seedItem => {
-            return data.find(
-              item => item.name.toLowerCase() === seedItem.toLowerCase()
-            );
-          })
+          .map(seedItem =>
+            data.find(
+              item =>
+                item.name.toLowerCase() === decodeURI(seedItem).toLowerCase()
+            )
+          )
           .filter(seedItem => seedItem !== undefined)
       );
     }
@@ -94,7 +95,7 @@ const IndexPage = ({ location }) => {
       ...selectedPokemon.slice(indexToRemove + 1, selectedPokemon.length),
       null
     ];
-    console.log(newArr); // eslint-disable-line
+
     setNavigation(
       newArr.reduce((acc, val) => {
         if (val !== null) {
