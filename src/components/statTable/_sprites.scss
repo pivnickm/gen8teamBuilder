@@ -1,0 +1,83 @@
+@mixin stitches-sprite($x: 0, $y: 0, $width: 0, $height: 0) {
+  background-position: $x $y;
+  width: $width;
+  height: $height;
+}
+
+.sprite {
+  background-image: url(./spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+
+  &.sprite-Icon_Bug {
+    @include stitches-sprite(0, 0, 25px, 25px);
+  }
+
+  &.sprite-Icon_Dark {
+    @include stitches-sprite(-25px, 0, 25px, 25px);
+  }
+
+  &.sprite-Icon_Dragon {
+    @include stitches-sprite(-50px, 0, 25px, 25px);
+  }
+
+  &.sprite-Icon_Electric {
+    @include stitches-sprite(-75px, 0, 25px, 25px);
+  }
+
+  &.sprite-Icon_Fairy {
+    @include stitches-sprite(0, -25px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Fighting {
+    @include stitches-sprite(-25px, -25px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Fire {
+    @include stitches-sprite(-50px, -25px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Flying {
+    @include stitches-sprite(-75px, -25px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Ghost {
+    @include stitches-sprite(0, -50px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Grass {
+    @include stitches-sprite(-25px, -50px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Ground {
+    @include stitches-sprite(-50px, -50px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Ice {
+    @include stitches-sprite(-75px, -50px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Normal {
+    @include stitches-sprite(0, -75px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Poison {
+    @include stitches-sprite(-25px, -75px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Psychic {
+    @include stitches-sprite(-50px, -75px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Rock {
+    @include stitches-sprite(-75px, -75px, 25px, 25px);
+  }
+
+  &.sprite-Icon_Steel {
+    @include stitches-sprite(-100px, 0, 25px, 25px);
+  }
+
+  &.sprite-Icon_Water {
+    @include stitches-sprite(-100px, -25px, 25px, 25px);
+  }
+}

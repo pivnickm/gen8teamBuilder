@@ -1,0 +1,1859 @@
+@mixin stitches-sprite($x: 0, $y: 0, $width: 0, $height: 0) {
+  background-position: $x $y;
+  width: $width;
+  height: $height;
+}
+
+.pokemonSprite {
+  background-image: url(./spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+
+  &.pokemonSprite-1 {
+    @include stitches-sprite(0, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-10 {
+    @include stitches-sprite(-50px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-106 {
+    @include stitches-sprite(-100px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-107 {
+    @include stitches-sprite(-150px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-109 {
+    @include stitches-sprite(-200px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-11 {
+    @include stitches-sprite(-250px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-110 {
+    @include stitches-sprite(-300px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-110-Galar {
+    @include stitches-sprite(-350px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-111 {
+    @include stitches-sprite(-400px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-112 {
+    @include stitches-sprite(-450px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-118 {
+    @include stitches-sprite(-500px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-119 {
+    @include stitches-sprite(-550px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-12 {
+    @include stitches-sprite(-600px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-122 {
+    @include stitches-sprite(-650px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-122-Galar {
+    @include stitches-sprite(-700px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-129 {
+    @include stitches-sprite(-750px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-130 {
+    @include stitches-sprite(-800px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-131 {
+    @include stitches-sprite(-850px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-132 {
+    @include stitches-sprite(-900px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-133 {
+    @include stitches-sprite(-950px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-134 {
+    @include stitches-sprite(-1000px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-135 {
+    @include stitches-sprite(0, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-136 {
+    @include stitches-sprite(-50px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-143 {
+    @include stitches-sprite(-100px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-150 {
+    @include stitches-sprite(-150px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-151 {
+    @include stitches-sprite(-200px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-163 {
+    @include stitches-sprite(-250px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-164 {
+    @include stitches-sprite(-300px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-170 {
+    @include stitches-sprite(-350px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-171 {
+    @include stitches-sprite(-400px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-172 {
+    @include stitches-sprite(-450px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-173 {
+    @include stitches-sprite(-500px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-175 {
+    @include stitches-sprite(-550px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-176 {
+    @include stitches-sprite(-600px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-177 {
+    @include stitches-sprite(-650px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-178 {
+    @include stitches-sprite(-700px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-182 {
+    @include stitches-sprite(-750px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-185 {
+    @include stitches-sprite(-800px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-194 {
+    @include stitches-sprite(-850px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-195 {
+    @include stitches-sprite(-900px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-196 {
+    @include stitches-sprite(-950px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-197 {
+    @include stitches-sprite(-1000px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-2 {
+    @include stitches-sprite(0, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-202 {
+    @include stitches-sprite(-50px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-208 {
+    @include stitches-sprite(-100px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-211 {
+    @include stitches-sprite(-150px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-213 {
+    @include stitches-sprite(-200px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-215 {
+    @include stitches-sprite(-250px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-220 {
+    @include stitches-sprite(-300px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-221 {
+    @include stitches-sprite(-350px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-222 {
+    @include stitches-sprite(-400px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-222-Galar {
+    @include stitches-sprite(-450px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-223 {
+    @include stitches-sprite(-500px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-224 {
+    @include stitches-sprite(-550px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-225 {
+    @include stitches-sprite(-600px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-226 {
+    @include stitches-sprite(-650px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-236 {
+    @include stitches-sprite(-700px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-237 {
+    @include stitches-sprite(-750px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-246 {
+    @include stitches-sprite(-800px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-247 {
+    @include stitches-sprite(-850px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-248 {
+    @include stitches-sprite(-900px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-25 {
+    @include stitches-sprite(-950px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-251 {
+    @include stitches-sprite(-1000px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-26 {
+    @include stitches-sprite(0, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-26-1 {
+    @include stitches-sprite(-50px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-263 {
+    @include stitches-sprite(-100px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-263-Galar {
+    @include stitches-sprite(-150px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-264 {
+    @include stitches-sprite(-200px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-264-Galar {
+    @include stitches-sprite(-250px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-270 {
+    @include stitches-sprite(-300px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-271 {
+    @include stitches-sprite(-350px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-272 {
+    @include stitches-sprite(-400px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-273 {
+    @include stitches-sprite(-450px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-274 {
+    @include stitches-sprite(-500px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-275 {
+    @include stitches-sprite(-550px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-278 {
+    @include stitches-sprite(-600px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-279 {
+    @include stitches-sprite(-650px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-280 {
+    @include stitches-sprite(-700px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-281 {
+    @include stitches-sprite(-750px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-282 {
+    @include stitches-sprite(-800px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-290 {
+    @include stitches-sprite(-850px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-291 {
+    @include stitches-sprite(-900px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-292 {
+    @include stitches-sprite(-950px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-3 {
+    @include stitches-sprite(-1000px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-302 {
+    @include stitches-sprite(0, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-303 {
+    @include stitches-sprite(-50px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-309 {
+    @include stitches-sprite(-100px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-310 {
+    @include stitches-sprite(-150px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-315 {
+    @include stitches-sprite(-200px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-320 {
+    @include stitches-sprite(-250px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-321 {
+    @include stitches-sprite(-300px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-324 {
+    @include stitches-sprite(-350px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-328 {
+    @include stitches-sprite(-400px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-329 {
+    @include stitches-sprite(-450px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-330 {
+    @include stitches-sprite(-500px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-337 {
+    @include stitches-sprite(-550px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-338 {
+    @include stitches-sprite(-600px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-339 {
+    @include stitches-sprite(-650px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-340 {
+    @include stitches-sprite(-700px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-341 {
+    @include stitches-sprite(-750px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-342 {
+    @include stitches-sprite(-800px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-343 {
+    @include stitches-sprite(-850px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-344 {
+    @include stitches-sprite(-900px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-349 {
+    @include stitches-sprite(-950px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-35 {
+    @include stitches-sprite(-1000px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-350 {
+    @include stitches-sprite(0, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-355 {
+    @include stitches-sprite(-50px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-356 {
+    @include stitches-sprite(-100px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-36 {
+    @include stitches-sprite(-150px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-360 {
+    @include stitches-sprite(-200px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-361 {
+    @include stitches-sprite(-250px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-362 {
+    @include stitches-sprite(-300px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-37 {
+    @include stitches-sprite(-350px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-37-Alola {
+    @include stitches-sprite(-400px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-38 {
+    @include stitches-sprite(-450px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-38-Alola {
+    @include stitches-sprite(-500px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-385 {
+    @include stitches-sprite(-550px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-4 {
+    @include stitches-sprite(-600px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-406 {
+    @include stitches-sprite(-650px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-407 {
+    @include stitches-sprite(-700px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-415 {
+    @include stitches-sprite(-750px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-416 {
+    @include stitches-sprite(-800px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-420 {
+    @include stitches-sprite(-850px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-421 {
+    @include stitches-sprite(-900px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-422 {
+    @include stitches-sprite(-950px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-423 {
+    @include stitches-sprite(-1000px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-425 {
+    @include stitches-sprite(0, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-426 {
+    @include stitches-sprite(-50px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-43 {
+    @include stitches-sprite(-100px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-434 {
+    @include stitches-sprite(-150px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-435 {
+    @include stitches-sprite(-200px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-436 {
+    @include stitches-sprite(-250px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-437 {
+    @include stitches-sprite(-300px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-438 {
+    @include stitches-sprite(-350px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-439 {
+    @include stitches-sprite(-400px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-44 {
+    @include stitches-sprite(-450px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-446 {
+    @include stitches-sprite(-500px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-447 {
+    @include stitches-sprite(-550px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-448 {
+    @include stitches-sprite(-600px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-449 {
+    @include stitches-sprite(-650px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-45 {
+    @include stitches-sprite(-700px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-450 {
+    @include stitches-sprite(-750px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-451 {
+    @include stitches-sprite(-800px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-452 {
+    @include stitches-sprite(-850px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-453 {
+    @include stitches-sprite(-900px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-454 {
+    @include stitches-sprite(-950px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-458 {
+    @include stitches-sprite(-1000px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-459 {
+    @include stitches-sprite(0, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-460 {
+    @include stitches-sprite(-50px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-461 {
+    @include stitches-sprite(-100px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-464 {
+    @include stitches-sprite(-150px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-468 {
+    @include stitches-sprite(-200px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-470 {
+    @include stitches-sprite(-250px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-471 {
+    @include stitches-sprite(-300px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-473 {
+    @include stitches-sprite(-350px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-475 {
+    @include stitches-sprite(-400px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-477 {
+    @include stitches-sprite(-450px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-478 {
+    @include stitches-sprite(-500px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-479 {
+    @include stitches-sprite(-550px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-479-Fan {
+    @include stitches-sprite(-600px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-479-Frost {
+    @include stitches-sprite(-650px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-479-Heat {
+    @include stitches-sprite(-700px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-479-Mow {
+    @include stitches-sprite(-750px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-479-Wash {
+    @include stitches-sprite(-800px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-5 {
+    @include stitches-sprite(-850px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-50 {
+    @include stitches-sprite(-900px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-50-Alola {
+    @include stitches-sprite(-950px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-509 {
+    @include stitches-sprite(-1000px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-51 {
+    @include stitches-sprite(0, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-51-Alola {
+    @include stitches-sprite(-50px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-510 {
+    @include stitches-sprite(-100px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-517 {
+    @include stitches-sprite(-150px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-518 {
+    @include stitches-sprite(-200px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-519 {
+    @include stitches-sprite(-250px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-52 {
+    @include stitches-sprite(-300px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-52-Alola {
+    @include stitches-sprite(-350px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-52-Galar {
+    @include stitches-sprite(-400px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-520 {
+    @include stitches-sprite(-450px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-521 {
+    @include stitches-sprite(-500px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-524 {
+    @include stitches-sprite(-550px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-525 {
+    @include stitches-sprite(-600px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-526 {
+    @include stitches-sprite(-650px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-527 {
+    @include stitches-sprite(-700px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-528 {
+    @include stitches-sprite(-750px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-529 {
+    @include stitches-sprite(-800px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-53 {
+    @include stitches-sprite(-850px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-53-Alola {
+    @include stitches-sprite(-900px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-530 {
+    @include stitches-sprite(-950px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-532 {
+    @include stitches-sprite(-1000px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-533 {
+    @include stitches-sprite(0, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-534 {
+    @include stitches-sprite(-50px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-535 {
+    @include stitches-sprite(-100px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-536 {
+    @include stitches-sprite(-150px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-537 {
+    @include stitches-sprite(-200px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-538 {
+    @include stitches-sprite(-250px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-539 {
+    @include stitches-sprite(-300px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-546 {
+    @include stitches-sprite(-350px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-547 {
+    @include stitches-sprite(-400px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-550 {
+    @include stitches-sprite(-450px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-554 {
+    @include stitches-sprite(-500px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-554-Galar {
+    @include stitches-sprite(-550px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-555 {
+    @include stitches-sprite(-600px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-555-Galar {
+    @include stitches-sprite(-650px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-556 {
+    @include stitches-sprite(-700px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-557 {
+    @include stitches-sprite(-750px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-558 {
+    @include stitches-sprite(-800px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-559 {
+    @include stitches-sprite(-850px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-560 {
+    @include stitches-sprite(-900px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-561 {
+    @include stitches-sprite(-950px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-562 {
+    @include stitches-sprite(-1000px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-562-Galar {
+    @include stitches-sprite(0, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-563 {
+    @include stitches-sprite(-50px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-568 {
+    @include stitches-sprite(-100px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-569 {
+    @include stitches-sprite(-150px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-572 {
+    @include stitches-sprite(-200px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-573 {
+    @include stitches-sprite(-250px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-574 {
+    @include stitches-sprite(-300px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-575 {
+    @include stitches-sprite(-350px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-576 {
+    @include stitches-sprite(-400px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-577 {
+    @include stitches-sprite(-450px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-578 {
+    @include stitches-sprite(-500px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-579 {
+    @include stitches-sprite(-550px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-58 {
+    @include stitches-sprite(-600px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-582 {
+    @include stitches-sprite(-650px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-583 {
+    @include stitches-sprite(-700px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-584 {
+    @include stitches-sprite(-750px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-588 {
+    @include stitches-sprite(-800px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-589 {
+    @include stitches-sprite(-850px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-59 {
+    @include stitches-sprite(-900px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-592 {
+    @include stitches-sprite(-950px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-593 {
+    @include stitches-sprite(-1000px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-595 {
+    @include stitches-sprite(0, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-596 {
+    @include stitches-sprite(-50px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-597 {
+    @include stitches-sprite(-100px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-598 {
+    @include stitches-sprite(-150px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-599 {
+    @include stitches-sprite(-200px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-6 {
+    @include stitches-sprite(-250px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-600 {
+    @include stitches-sprite(-300px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-601 {
+    @include stitches-sprite(-350px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-605 {
+    @include stitches-sprite(-400px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-606 {
+    @include stitches-sprite(-450px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-607 {
+    @include stitches-sprite(-500px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-608 {
+    @include stitches-sprite(-550px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-609 {
+    @include stitches-sprite(-600px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-610 {
+    @include stitches-sprite(-650px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-611 {
+    @include stitches-sprite(-700px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-612 {
+    @include stitches-sprite(-750px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-613 {
+    @include stitches-sprite(-800px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-614 {
+    @include stitches-sprite(-850px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-616 {
+    @include stitches-sprite(-900px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-617 {
+    @include stitches-sprite(-950px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-618 {
+    @include stitches-sprite(-1000px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-618-Galar {
+    @include stitches-sprite(0, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-622 {
+    @include stitches-sprite(-50px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-623 {
+    @include stitches-sprite(-100px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-624 {
+    @include stitches-sprite(-150px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-625 {
+    @include stitches-sprite(-200px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-627 {
+    @include stitches-sprite(-250px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-628 {
+    @include stitches-sprite(-300px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-629 {
+    @include stitches-sprite(-350px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-630 {
+    @include stitches-sprite(-400px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-631 {
+    @include stitches-sprite(-450px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-632 {
+    @include stitches-sprite(-500px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-633 {
+    @include stitches-sprite(-550px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-634 {
+    @include stitches-sprite(-600px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-635 {
+    @include stitches-sprite(-650px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-638 {
+    @include stitches-sprite(-700px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-639 {
+    @include stitches-sprite(-750px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-640 {
+    @include stitches-sprite(-800px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-643 {
+    @include stitches-sprite(-850px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-644 {
+    @include stitches-sprite(-900px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-646 {
+    @include stitches-sprite(-950px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-647 {
+    @include stitches-sprite(-1000px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-659 {
+    @include stitches-sprite(0, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-66 {
+    @include stitches-sprite(-50px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-660 {
+    @include stitches-sprite(-100px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-67 {
+    @include stitches-sprite(-150px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-674 {
+    @include stitches-sprite(-200px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-675 {
+    @include stitches-sprite(-250px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-677 {
+    @include stitches-sprite(-300px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-678 {
+    @include stitches-sprite(-350px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-679 {
+    @include stitches-sprite(-400px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-68 {
+    @include stitches-sprite(-450px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-680 {
+    @include stitches-sprite(-500px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-681 {
+    @include stitches-sprite(-550px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-682 {
+    @include stitches-sprite(-600px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-683 {
+    @include stitches-sprite(-650px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-684 {
+    @include stitches-sprite(-700px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-685 {
+    @include stitches-sprite(-750px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-686 {
+    @include stitches-sprite(-800px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-687 {
+    @include stitches-sprite(-850px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-688 {
+    @include stitches-sprite(-900px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-689 {
+    @include stitches-sprite(-950px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-694 {
+    @include stitches-sprite(-1000px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-695 {
+    @include stitches-sprite(0, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-7 {
+    @include stitches-sprite(-50px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-700 {
+    @include stitches-sprite(-100px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-701 {
+    @include stitches-sprite(-150px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-704 {
+    @include stitches-sprite(-200px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-705 {
+    @include stitches-sprite(-250px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-706 {
+    @include stitches-sprite(-300px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-708 {
+    @include stitches-sprite(-350px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-709 {
+    @include stitches-sprite(-400px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-710 {
+    @include stitches-sprite(-450px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-711 {
+    @include stitches-sprite(-500px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-712 {
+    @include stitches-sprite(-550px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-713 {
+    @include stitches-sprite(-600px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-714 {
+    @include stitches-sprite(-650px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-715 {
+    @include stitches-sprite(-700px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-722 {
+    @include stitches-sprite(-750px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-723 {
+    @include stitches-sprite(-800px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-724 {
+    @include stitches-sprite(-850px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-725 {
+    @include stitches-sprite(-900px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-726 {
+    @include stitches-sprite(-950px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-727 {
+    @include stitches-sprite(-1000px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-728 {
+    @include stitches-sprite(0, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-729 {
+    @include stitches-sprite(-50px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-730 {
+    @include stitches-sprite(-100px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-736 {
+    @include stitches-sprite(-150px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-737 {
+    @include stitches-sprite(-200px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-738 {
+    @include stitches-sprite(-250px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-742 {
+    @include stitches-sprite(-300px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-743 {
+    @include stitches-sprite(-350px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-746 {
+    @include stitches-sprite(-400px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-747 {
+    @include stitches-sprite(-450px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-748 {
+    @include stitches-sprite(-500px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-749 {
+    @include stitches-sprite(-550px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-750 {
+    @include stitches-sprite(-600px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-751 {
+    @include stitches-sprite(-650px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-752 {
+    @include stitches-sprite(-700px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-755 {
+    @include stitches-sprite(-750px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-756 {
+    @include stitches-sprite(-800px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-757 {
+    @include stitches-sprite(-850px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-758 {
+    @include stitches-sprite(-900px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-759 {
+    @include stitches-sprite(-950px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-760 {
+    @include stitches-sprite(-1000px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-761 {
+    @include stitches-sprite(0, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-762 {
+    @include stitches-sprite(-50px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-763 {
+    @include stitches-sprite(-100px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-765 {
+    @include stitches-sprite(-150px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-766 {
+    @include stitches-sprite(-200px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-767 {
+    @include stitches-sprite(-250px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-768 {
+    @include stitches-sprite(-300px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-77 {
+    @include stitches-sprite(-350px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-77-Galar {
+    @include stitches-sprite(-400px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-771 {
+    @include stitches-sprite(-450px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-772 {
+    @include stitches-sprite(-500px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-773 {
+    @include stitches-sprite(-550px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-776 {
+    @include stitches-sprite(-600px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-777 {
+    @include stitches-sprite(-650px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-778 {
+    @include stitches-sprite(-700px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-78 {
+    @include stitches-sprite(-750px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-78-Galar {
+    @include stitches-sprite(-800px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-780 {
+    @include stitches-sprite(-850px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-781 {
+    @include stitches-sprite(-900px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-782 {
+    @include stitches-sprite(-950px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-783 {
+    @include stitches-sprite(-1000px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-784 {
+    @include stitches-sprite(0, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-789 {
+    @include stitches-sprite(-50px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-790 {
+    @include stitches-sprite(-100px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-791 {
+    @include stitches-sprite(-150px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-792 {
+    @include stitches-sprite(-200px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-8 {
+    @include stitches-sprite(-250px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-800 {
+    @include stitches-sprite(-300px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-802 {
+    @include stitches-sprite(-350px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-807 {
+    @include stitches-sprite(-400px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-808 {
+    @include stitches-sprite(-450px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-809 {
+    @include stitches-sprite(-500px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-810 {
+    @include stitches-sprite(-550px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-811 {
+    @include stitches-sprite(-600px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-812 {
+    @include stitches-sprite(-650px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-813 {
+    @include stitches-sprite(-700px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-814 {
+    @include stitches-sprite(-750px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-815 {
+    @include stitches-sprite(-800px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-816 {
+    @include stitches-sprite(-850px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-817 {
+    @include stitches-sprite(-900px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-818 {
+    @include stitches-sprite(-950px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-819 {
+    @include stitches-sprite(-1000px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-820 {
+    @include stitches-sprite(0, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-821 {
+    @include stitches-sprite(-50px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-822 {
+    @include stitches-sprite(-100px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-823 {
+    @include stitches-sprite(-150px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-824 {
+    @include stitches-sprite(-200px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-825 {
+    @include stitches-sprite(-250px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-826 {
+    @include stitches-sprite(-300px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-827 {
+    @include stitches-sprite(-350px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-828 {
+    @include stitches-sprite(-400px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-829 {
+    @include stitches-sprite(-450px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-83 {
+    @include stitches-sprite(-500px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-83-Galar {
+    @include stitches-sprite(-550px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-830 {
+    @include stitches-sprite(-600px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-831 {
+    @include stitches-sprite(-650px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-832 {
+    @include stitches-sprite(-700px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-833 {
+    @include stitches-sprite(-750px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-834 {
+    @include stitches-sprite(-800px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-835 {
+    @include stitches-sprite(-850px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-836 {
+    @include stitches-sprite(-900px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-837 {
+    @include stitches-sprite(-950px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-838 {
+    @include stitches-sprite(-1000px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-839 {
+    @include stitches-sprite(0, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-840 {
+    @include stitches-sprite(-50px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-841 {
+    @include stitches-sprite(-100px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-842 {
+    @include stitches-sprite(-150px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-843 {
+    @include stitches-sprite(-200px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-844 {
+    @include stitches-sprite(-250px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-845 {
+    @include stitches-sprite(-300px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-846 {
+    @include stitches-sprite(-350px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-847 {
+    @include stitches-sprite(-400px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-848 {
+    @include stitches-sprite(-450px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-849 {
+    @include stitches-sprite(-500px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-850 {
+    @include stitches-sprite(-550px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-851 {
+    @include stitches-sprite(-600px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-852 {
+    @include stitches-sprite(-650px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-853 {
+    @include stitches-sprite(-700px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-854 {
+    @include stitches-sprite(-750px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-855 {
+    @include stitches-sprite(-800px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-856 {
+    @include stitches-sprite(-850px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-857 {
+    @include stitches-sprite(-900px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-858 {
+    @include stitches-sprite(-950px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-859 {
+    @include stitches-sprite(-1000px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-860 {
+    @include stitches-sprite(0, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-861 {
+    @include stitches-sprite(-50px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-862 {
+    @include stitches-sprite(-100px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-863 {
+    @include stitches-sprite(-150px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-864 {
+    @include stitches-sprite(-200px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-865 {
+    @include stitches-sprite(-250px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-866 {
+    @include stitches-sprite(-300px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-867 {
+    @include stitches-sprite(-350px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-868 {
+    @include stitches-sprite(-400px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-869 {
+    @include stitches-sprite(-450px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-870 {
+    @include stitches-sprite(-500px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-871 {
+    @include stitches-sprite(-550px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-872 {
+    @include stitches-sprite(-600px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-873 {
+    @include stitches-sprite(-650px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-874 {
+    @include stitches-sprite(-700px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-875 {
+    @include stitches-sprite(-750px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-876 {
+    @include stitches-sprite(-800px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-877 {
+    @include stitches-sprite(-850px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-878 {
+    @include stitches-sprite(-900px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-879 {
+    @include stitches-sprite(-950px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-880 {
+    @include stitches-sprite(-1000px, -1000px, 50px, 50px);
+  }
+
+  &.pokemonSprite-881 {
+    @include stitches-sprite(-1050px, 0, 50px, 50px);
+  }
+
+  &.pokemonSprite-882 {
+    @include stitches-sprite(-1050px, -50px, 50px, 50px);
+  }
+
+  &.pokemonSprite-883 {
+    @include stitches-sprite(-1050px, -100px, 50px, 50px);
+  }
+
+  &.pokemonSprite-884 {
+    @include stitches-sprite(-1050px, -150px, 50px, 50px);
+  }
+
+  &.pokemonSprite-885 {
+    @include stitches-sprite(-1050px, -200px, 50px, 50px);
+  }
+
+  &.pokemonSprite-886 {
+    @include stitches-sprite(-1050px, -250px, 50px, 50px);
+  }
+
+  &.pokemonSprite-887 {
+    @include stitches-sprite(-1050px, -300px, 50px, 50px);
+  }
+
+  &.pokemonSprite-888 {
+    @include stitches-sprite(-1050px, -350px, 50px, 50px);
+  }
+
+  &.pokemonSprite-888-Sword {
+    @include stitches-sprite(-1050px, -400px, 50px, 50px);
+  }
+
+  &.pokemonSprite-889 {
+    @include stitches-sprite(-1050px, -450px, 50px, 50px);
+  }
+
+  &.pokemonSprite-889-Shield {
+    @include stitches-sprite(-1050px, -500px, 50px, 50px);
+  }
+
+  &.pokemonSprite-890 {
+    @include stitches-sprite(-1050px, -550px, 50px, 50px);
+  }
+
+  &.pokemonSprite-9 {
+    @include stitches-sprite(-1050px, -600px, 50px, 50px);
+  }
+
+  &.pokemonSprite-90 {
+    @include stitches-sprite(-1050px, -650px, 50px, 50px);
+  }
+
+  &.pokemonSprite-91 {
+    @include stitches-sprite(-1050px, -700px, 50px, 50px);
+  }
+
+  &.pokemonSprite-92 {
+    @include stitches-sprite(-1050px, -750px, 50px, 50px);
+  }
+
+  &.pokemonSprite-93 {
+    @include stitches-sprite(-1050px, -800px, 50px, 50px);
+  }
+
+  &.pokemonSprite-94 {
+    @include stitches-sprite(-1050px, -850px, 50px, 50px);
+  }
+
+  &.pokemonSprite-95 {
+    @include stitches-sprite(-1050px, -900px, 50px, 50px);
+  }
+
+  &.pokemonSprite-98 {
+    @include stitches-sprite(-1050px, -950px, 50px, 50px);
+  }
+
+  &.pokemonSprite-99 {
+    @include stitches-sprite(-1050px, -1000px, 50px, 50px);
+  }
+}

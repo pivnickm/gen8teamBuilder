@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import cn from "classnames";
 
 import "./_index.scss";
+import "./_sprites.scss";
 import { withPrefix } from "gatsby";
 
 const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
@@ -46,7 +47,7 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
     });
   });
   return (
-    <React.Fragment>
+    <div className="statTable_wrapper">
       {[
         { name: "Team Immunities", data: immunities },
         { name: "Team Weaknesses", data: superEffective },
@@ -65,16 +66,10 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
           <tbody>
             <tr className="statTable_col">
               {types.slice(0, types.length / 2).map(type => (
-                <td
-                  className={`statTable_cell ${type.toLowerCase()}0`}
-                  key={type}
-                >
-                  <span className="statTable_typeText">{type}</span>
-                  <img
-                    className="statTable_typeImage"
-                    src={withPrefix(`/types/Icon_${type}.png`)}
-                    alt={`Icon_${type}`}
-                  />
+                <td className="statTable_cell" key={type}>
+                  <div className={`sprite sprite-Icon_${type}`}>
+                    <span className="statTable_typeText">{type}</span>
+                  </div>
                 </td>
               ))}
             </tr>
@@ -84,7 +79,7 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
                 .map((count, index) => (
                   <td className="statTable_cell" key={index}>
                     <div
-                      className={cn({
+                      className={cn("statTable_cell_text", {
                         ["statTable_cell__caution"]: count > 2,
                         ["statTable_cell__warning"]: count > 3
                       })}
@@ -96,16 +91,10 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
             </tr>
             <tr className="statTable_col">
               {types.slice(types.length / 2, types.length).map(type => (
-                <td
-                  className={`statTable_cell ${type.toLowerCase()}0`}
-                  key={type}
-                >
-                  <span className="statTable_typeText">{type}</span>
-                  <img
-                    className="statTable_typeImage"
-                    src={withPrefix(`/types/Icon_${type}.png`)}
-                    alt={`Icon_${type}`}
-                  />
+                <td className="statTable_cell" key={type}>
+                  <div className={`sprite sprite-Icon_${type}`}>
+                    <span className="statTable_typeText">{type}</span>
+                  </div>
                 </td>
               ))}
             </tr>
@@ -118,7 +107,7 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
                 .map((count, index) => (
                   <td className="statTable_cell" key={index}>
                     <div
-                      className={cn({
+                      className={cn("statTable_cell_text", {
                         ["statTable_cell__caution"]: count > 2,
                         ["statTable_cell__warning"]: count > 3
                       })}
@@ -131,7 +120,7 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
           </tbody>
         </table>
       ))}
-    </React.Fragment>
+    </div>
   );
 };
 
