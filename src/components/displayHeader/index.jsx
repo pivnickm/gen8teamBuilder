@@ -23,7 +23,9 @@ const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
               </div>
             ) : (
               <div
-                className="displayHeader_item displayHeader_pokeball"
+                className={`displayHeader_item displayHeader_pokemon ${pokemon.types
+                  .map((type, index) => `${type.toLowerCase()}${index}`)
+                  .join(" ")}`}
                 onClick={() => {
                   handleItemClick(index);
                 }}
@@ -59,7 +61,9 @@ const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
               </div>
             ) : (
               <div
-                className="displayHeader_item displayHeader_pokeball"
+                className={`displayHeader_item displayHeader_pokemon ${pokemon.types
+                  .map((type, index) => `${type.toLowerCase()}${index}`)
+                  .join(" ")}`}
                 onClick={() => {
                   handleItemClick(index + 3);
                 }}

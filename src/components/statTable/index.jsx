@@ -83,14 +83,14 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
                 .slice(0, defensiveMetric.data.length / 2)
                 .map((count, index) => (
                   <td className="statTable_cell" key={index}>
-                    <span
+                    <div
                       className={cn({
                         ["statTable_cell__caution"]: count > 2,
                         ["statTable_cell__warning"]: count > 3
                       })}
                     >
                       {count}
-                    </span>
+                    </div>
                   </td>
                 ))}
             </tr>
@@ -117,14 +117,14 @@ const StatTable = ({ className, allDefensiveStats, ...statTableProps }) => {
                 )
                 .map((count, index) => (
                   <td className="statTable_cell" key={index}>
-                    <span
+                    <div
                       className={cn({
                         ["statTable_cell__caution"]: count > 2,
                         ["statTable_cell__warning"]: count > 3
                       })}
                     >
                       {count}
-                    </span>
+                    </div>
                   </td>
                 ))}
             </tr>
