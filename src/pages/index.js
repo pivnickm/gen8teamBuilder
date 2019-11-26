@@ -154,25 +154,24 @@ const IndexPage = ({ location }) => {
   return (
     <Layout onChange={event => setSearchTerm(event.target.value)}>
       <SEO title="Pokemon Sword and Shield Team Builder" />
-
-      <div>
+      <div style={{ display: "flex" }}>
         <DisplayHeader
           selectedPokemon={selectedPokemon}
           handleItemClick={handleRemovePokemon}
-        >
-          <div>
-            {/* {generations.map((gen, index) => (
+        />
+        {/* {generations.map((gen, index) => (
               <button onClick={() => handleFilterGen(gen)}>
-                {gen === 0 ? "All" : `Gen ${gen}`}
+              {gen === 0 ? "All" : `Gen ${gen}`}
               </button>
             ))} */}
-          </div>
-        </DisplayHeader>
-        <StatTable allDefensiveStats={allDefensiveStats} />
-        <List
-          availablePokemon={filteredList}
-          handleItemClick={handleSelectPokemon}
-        />
+
+        <div>
+          <StatTable allDefensiveStats={allDefensiveStats} />
+          <List
+            availablePokemon={filteredList}
+            handleItemClick={handleSelectPokemon}
+          />
+        </div>
       </div>
     </Layout>
   );
