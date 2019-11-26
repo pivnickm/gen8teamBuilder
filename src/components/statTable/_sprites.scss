@@ -8,6 +8,7 @@
   background-image: url(./spritesheet.png);
   background-repeat: no-repeat;
   display: block;
+  margin: 0 auto;
 
   &.sprite-Icon_Bug {
     @include stitches-sprite(0, 0, 25px, 25px);

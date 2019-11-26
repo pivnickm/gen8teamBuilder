@@ -31,16 +31,10 @@ const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
                 }}
                 key={index}
               >
-                <img
-                  className="displayHeader_image"
-                  src={withPrefix(
-                    `/pokemon/${
-                      pokemon.form
-                        ? `${pokemon.id}-${pokemon.form}`
-                        : pokemon.id
-                    }.png`
-                  )}
-                  alt={pokemon.name}
+                <div
+                  className={`pokemonSprite pokemonSprite-${
+                    pokemon.form ? `${pokemon.id}-${pokemon.form}` : pokemon.id
+                  }`}
                 />
                 <span className="displayHeader_text">{pokemon.name}</span>
                 <TypeIndicator types={pokemon.types} />
@@ -69,16 +63,10 @@ const DisplayHeader = ({ children, selectedPokemon, handleItemClick }) => {
                 }}
                 key={index}
               >
-                <img
-                  className={"displayHeader_image"}
-                  src={withPrefix(
-                    `/pokemon/${
-                      pokemon.form
-                        ? `${pokemon.id}-${pokemon.form}`
-                        : pokemon.id
-                    }.png`
-                  )}
-                  alt={pokemon.name}
+                <div
+                  className={`pokemonSprite pokemonSprite-${
+                    pokemon.form ? `${pokemon.id}-${pokemon.form}` : pokemon.id
+                  }`}
                 />
                 <span className="displayHeader_text">{pokemon.name}</span>
                 <TypeIndicator types={pokemon.types} />

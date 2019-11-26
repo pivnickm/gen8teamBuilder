@@ -5,21 +5,5 @@
   flex-direction: column;
   list-style: none;
   user-select: none;
-  // height: 60px;
-  // width: 60px;
   margin: 0.25rem;
-  &_image {
-    height: 45px;
-    width: 45px;
-    &__bigDisplay {
-      max-width: 100%;
-      width: unset;
-      height: auto;
-    }
-  }
-  &__bigDisplay {
-    height: 140px;
-    width: 140px;
-    border: 1px solid black;
-  }
 }

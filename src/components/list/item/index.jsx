@@ -5,7 +5,6 @@ import { withPrefix } from "gatsby";
 
 import * as colors from "../../../data/colors";
 import "./_index.scss";
-import "./_sprites.scss";
 
 const ListItem = ({ className, onClick, pokemon }) => {
   const outputClassName = cn(
@@ -27,11 +26,6 @@ const ListItem = ({ className, onClick, pokemon }) => {
       }}
     >
       <div className={`pokemonSprite pokemonSprite-${imagePath}`} />
-      {/* <img
-        className={imageClassName}
-        src={withPrefix(`/pokemon/${imagePath}.png`)}
-        alt={pokemon.name}
-      /> */}
     </li>
   );
 };
